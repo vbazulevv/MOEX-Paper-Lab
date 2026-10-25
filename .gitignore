@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+reports/
+# The live working data is user-generated. Only sample data is committed.
+data/trades.csv
+data/prices.csv
