@@ -20,6 +20,16 @@ def money(value: object, label: str = "number") -> Decimal:
     return result
 
 
+def parse_iso_date(value: str) -> date:
+    """Require the documented YYYY-MM-DD format (not Python's compact variant)."""
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(value)):
+        raise ValueError("date must be YYYY-MM-DD")
+    try:
+        return date.fromisoformat(value)
+    except ValueError as exc:
+        raise ValueError("invalid calendar date; expected YYYY-MM-DD") from exc
+
+
 def clean_ticker(value: str) -> str:
     ticker = str(value).strip().upper()
     if not TICKER_PATTERN.fullmatch(ticker):

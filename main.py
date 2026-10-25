@@ -8,7 +8,7 @@ from datetime import date
 from pathlib import Path
 import shutil
 
-from moex_paper_lab.models import Trade, clean_ticker, money
+from moex_paper_lab.models import Trade, clean_ticker, money, parse_iso_date
 from moex_paper_lab.portfolio import Portfolio
 from moex_paper_lab.risk import assess_risk
 from moex_paper_lab.storage import append_trade, export_report, load_prices, load_trades, update_price
@@ -56,7 +56,7 @@ def display_snapshot(portfolio: Portfolio, prices_file: Path) -> None:
 def record_trade(portfolio: Portfolio, trades_file: Path) -> None:
     raw_date = input(f"Trade date [YYYY-MM-DD, Enter={date.today()}]: ").strip()
     trade = Trade(
-        trade_date=date.fromisoformat(raw_date) if raw_date else date.today(),
+        trade_date=parse_iso_date(raw_date) if raw_date else date.today(),
         ticker=input("Ticker (e.g. SBER): "),
         side=input("Side [BUY/SELL]: "),
         quantity=int(input("Quantity (whole shares): ").strip()),

@@ -9,7 +9,7 @@ from pathlib import Path
 import tempfile
 from typing import Iterable
 
-from .models import PortfolioRow, Snapshot, Trade, clean_ticker, money
+from .models import Snapshot, Trade, clean_ticker, money, parse_iso_date
 
 TRADE_COLUMNS = ["date", "ticker", "side", "quantity", "price", "commission"]
 PRICE_COLUMNS = ["ticker", "price", "as_of"]
@@ -37,7 +37,7 @@ def load_trades(path: Path) -> list[Trade]:
     for line, row in enumerate(_read_rows(path, TRADE_COLUMNS), start=2):
         try:
             trades.append(Trade(
-                trade_date=date.fromisoformat(row["date"]),
+                trade_date=parse_iso_date(row["date"]),
                 ticker=row["ticker"],
                 side=row["side"],
                 quantity=int(row["quantity"]),
@@ -57,7 +57,7 @@ def load_prices(path: Path) -> dict[str, Decimal]:
             price = money(row["price"], "price")
             if price <= 0:
                 raise ValueError("price must be greater than zero")
-            date.fromisoformat(row["as_of"])
+            parse_iso_date(row["as_of"])
             if ticker in prices:
                 raise ValueError(f"duplicate ticker {ticker}")
             prices[ticker] = price
