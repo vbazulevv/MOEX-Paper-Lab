@@ -36,6 +36,15 @@ class StorageTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "row 2"):
             load_trades(self.trades)
 
+    def test_reject_non_iso_trade_date(self) -> None:
+        # The documented CSV schema requires YYYY-MM-DD, not compact YYYYMMDD.
+        self.trades.write_text(
+            "date,ticker,side,quantity,price,commission\n20261001,SBER,BUY,2,100,0\n",
+            encoding="utf-8",
+        )
+        with self.assertRaisesRegex(ValueError, "row 2"):
+            load_trades(self.trades)
+
     def test_report_export(self) -> None:
         p = Portfolio()
         p.apply_trade(Trade(date(2026, 10, 1), "SBER", "BUY", 2, D("100")))
