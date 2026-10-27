@@ -1,0 +1,967 @@
+{
+  "schema_version": 1,
+  "model_version": "shrink-drift20-v1",
+  "generated_at_msk": "2026-10-27T19:18:52.430678+03:00",
+  "snapshot_cutoff_msk": "2026-10-27T19:18:11.037628+03:00",
+  "requested_tickers": 38,
+  "daily_rows": 10651,
+  "all_failed": false,
+  "offline": false,
+  "new_forward_forecasts": 0,
+  "forward_forecasts_total": 0,
+  "settled_forward_forecasts": 0,
+  "source": "MOEX ISS: shares TQBR, index IMOEX SNDX",
+  "source_errors": [],
+  "stocks": [
+    {
+      "ticker": "SOFL",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 52.0,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:58:08",
+        "close": 51.58,
+        "hour_return_pct": -0.8839354342813244,
+        "same_hour_volume_ratio": 1.723323680106928,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 52.073836027717824,
+        "lower95_empirical": 49.283244175199165,
+        "upper95_empirical": 54.40744846410614,
+        "calibration_n": 214,
+        "baseline": 52.0
+      }
+    },
+    {
+      "ticker": "OZON",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 3534.5,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:58:08",
+        "close": 3594.5,
+        "hour_return_pct": -0.20821765685730131,
+        "same_hour_volume_ratio": 1.9571534827199681,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 3542.9633484923097,
+        "lower95_empirical": 3383.2872748646873,
+        "upper95_empirical": 3714.137344274866,
+        "calibration_n": 186,
+        "baseline": 3534.5
+      }
+    },
+    {
+      "ticker": "YDEX",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 3471.5,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:08",
+        "close": 3510.0,
+        "hour_return_pct": -0.9314140558848383,
+        "same_hour_volume_ratio": 4.606227506960111,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 3470.566491708502,
+        "lower95_empirical": 3337.0851583850326,
+        "upper95_empirical": 3608.587567151373,
+        "calibration_n": 214,
+        "baseline": 3471.5
+      }
+    },
+    {
+      "ticker": "ASTR",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 220.35,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:58:08",
+        "close": 219.35,
+        "hour_return_pct": -0.3407542026351629,
+        "same_hour_volume_ratio": 0.8749080747168702,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 220.4681536893283,
+        "lower95_empirical": 204.35252025106615,
+        "upper95_empirical": 243.09992634430088,
+        "calibration_n": 214,
+        "baseline": 220.35
+      }
+    },
+    {
+      "ticker": "POSI",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 1184.6,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:08",
+        "close": 1220.6,
+        "hour_return_pct": -0.3266372693124242,
+        "same_hour_volume_ratio": 2.4637255893959322,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 1186.7303050240087,
+        "lower95_empirical": 1131.510235560207,
+        "upper95_empirical": 1260.7956186899808,
+        "calibration_n": 214,
+        "baseline": 1184.6
+      }
+    },
+    {
+      "ticker": "VKCO",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 138.15,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 144.9,
+        "hour_return_pct": -1.327885597548506,
+        "same_hour_volume_ratio": 6.615210832290823,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 138.52993519045881,
+        "lower95_empirical": 129.62828017540744,
+        "upper95_empirical": 145.86107106190056,
+        "calibration_n": 214,
+        "baseline": 138.15
+      }
+    },
+    {
+      "ticker": "HEAD",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 2717.0,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 2739.0,
+        "hour_return_pct": -0.6889050036258171,
+        "same_hour_volume_ratio": 1.6634572819831783,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 2717.0625582991165,
+        "lower95_empirical": 2624.43373877322,
+        "upper95_empirical": 2800.404261381238,
+        "calibration_n": 214,
+        "baseline": 2717.0
+      }
+    },
+    {
+      "ticker": "DIAS",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 1241.5,
+      "data_status": "ok",
+      "liquid": false,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:58:08",
+        "close": 1225.0,
+        "hour_return_pct": -0.5681818181818232,
+        "same_hour_volume_ratio": 9.490218642117377,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 1243.5856016315602,
+        "lower95_empirical": 1182.1371371036566,
+        "upper95_empirical": 1302.550998624029,
+        "calibration_n": 214,
+        "baseline": 1241.5
+      }
+    },
+    {
+      "ticker": "SBER",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 296.0,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 296.56,
+        "hour_return_pct": -0.5799725099735253,
+        "same_hour_volume_ratio": 2.859283281984758,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 296.3069050662438,
+        "lower95_empirical": 290.2406162082554,
+        "upper95_empirical": 302.74413661887456,
+        "calibration_n": 214,
+        "baseline": 296.0
+      }
+    },
+    {
+      "ticker": "T",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 273.82,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 275.74,
+        "hour_return_pct": -0.5266955266955198,
+        "same_hour_volume_ratio": 2.6818348620178836,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 274.14293996688485,
+        "lower95_empirical": 264.7243962150432,
+        "upper95_empirical": 283.2643407857895,
+        "calibration_n": 210,
+        "baseline": 273.82
+      }
+    },
+    {
+      "ticker": "NVTK",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 1187.7,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 1194.9,
+        "hour_return_pct": -1.043478260869557,
+        "same_hour_volume_ratio": 1.6210944751604182,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 1189.8125477555668,
+        "lower95_empirical": 1138.3713166923235,
+        "upper95_empirical": 1251.7132791233582,
+        "calibration_n": 214,
+        "baseline": 1187.7
+      }
+    },
+    {
+      "ticker": "GAZP",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 114.36,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 116.45,
+        "hour_return_pct": -1.3804200542005374,
+        "same_hour_volume_ratio": 2.77269756917656,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 114.60463274067276,
+        "lower95_empirical": 110.3197366359103,
+        "upper95_empirical": 119.52338686534425,
+        "calibration_n": 214,
+        "baseline": 114.36
+      }
+    },
+    {
+      "ticker": "LKOH",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 6165.5,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 6291.5,
+        "hour_return_pct": -0.44307302792941927,
+        "same_hour_volume_ratio": 2.5373495077769284,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 6177.175917984297,
+        "lower95_empirical": 5861.6331022547765,
+        "upper95_empirical": 6507.861296616782,
+        "calibration_n": 214,
+        "baseline": 6165.5
+      }
+    },
+    {
+      "ticker": "ROSN",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 388.9,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 388.55,
+        "hour_return_pct": -0.6520071592942989,
+        "same_hour_volume_ratio": 1.6477531307432576,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 389.3814696166263,
+        "lower95_empirical": 371.69610816499824,
+        "upper95_empirical": 413.0883910784525,
+        "calibration_n": 214,
+        "baseline": 388.9
+      }
+    },
+    {
+      "ticker": "TATN",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 638.9,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 637.8,
+        "hour_return_pct": -0.6077606358111387,
+        "same_hour_volume_ratio": 2.54163057783377,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 639.0425299421389,
+        "lower95_empirical": 603.9173811626755,
+        "upper95_empirical": 675.9289832431585,
+        "calibration_n": 214,
+        "baseline": 638.9
+      }
+    },
+    {
+      "ticker": "GMKN",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 115.5,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 115.2,
+        "hour_return_pct": -0.5181347150258975,
+        "same_hour_volume_ratio": 1.431638124483288,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 115.47202622013728,
+        "lower95_empirical": 109.92638469219375,
+        "upper95_empirical": 120.88587735170346,
+        "calibration_n": 214,
+        "baseline": 115.5
+      }
+    },
+    {
+      "ticker": "NLMK",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 77.6,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 76.08,
+        "hour_return_pct": -1.6546018614270963,
+        "same_hour_volume_ratio": 2.485677887879412,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 77.7262054410336,
+        "lower95_empirical": 74.4305782589719,
+        "upper95_empirical": 81.76683616143235,
+        "calibration_n": 214,
+        "baseline": 77.6
+      }
+    },
+    {
+      "ticker": "CHMF",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 713.2,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:58:08",
+        "close": 703.0,
+        "hour_return_pct": -0.9301014656144302,
+        "same_hour_volume_ratio": 2.508655061752407,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 714.3950045393077,
+        "lower95_empirical": 684.9204698289861,
+        "upper95_empirical": 749.7031098248518,
+        "calibration_n": 214,
+        "baseline": 713.2
+      }
+    },
+    {
+      "ticker": "MAGN",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 23.64,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 23.065,
+        "hour_return_pct": -1.3894826849080721,
+        "same_hour_volume_ratio": 3.135276276852644,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 23.685491091375837,
+        "lower95_empirical": 22.605503308092068,
+        "upper95_empirical": 25.0628533221832,
+        "calibration_n": 214,
+        "baseline": 23.64
+      }
+    },
+    {
+      "ticker": "PLZL",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 1130.8,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 1106.8,
+        "hour_return_pct": -0.8421429851281248,
+        "same_hour_volume_ratio": 1.854293684623749,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 1132.9994012359602,
+        "lower95_empirical": 1067.8444262616822,
+        "upper95_empirical": 1204.841771353076,
+        "calibration_n": 214,
+        "baseline": 1130.8
+      }
+    },
+    {
+      "ticker": "ALRS",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 21.51,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 21.12,
+        "hour_return_pct": -0.8450704225352101,
+        "same_hour_volume_ratio": 2.0704683073162604,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 21.5443816013949,
+        "lower95_empirical": 20.421273691532118,
+        "upper95_empirical": 22.65963643434175,
+        "calibration_n": 214,
+        "baseline": 21.51
+      }
+    },
+    {
+      "ticker": "RUAL",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 25.48,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 25.14,
+        "hour_return_pct": -1.5468964166829857,
+        "same_hour_volume_ratio": 5.009541016863192,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 25.50994291395158,
+        "lower95_empirical": 24.042837715709744,
+        "upper95_empirical": 26.70129470753322,
+        "calibration_n": 214,
+        "baseline": 25.48
+      }
+    },
+    {
+      "ticker": "MTLR",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 44.69,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:58:08",
+        "close": 44.84,
+        "hour_return_pct": -0.33340742387196753,
+        "same_hour_volume_ratio": 1.493990289038197,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 44.7566122933512,
+        "lower95_empirical": 42.22657168723139,
+        "upper95_empirical": 47.20337074664374,
+        "calibration_n": 214,
+        "baseline": 44.69
+      }
+    },
+    {
+      "ticker": "FLOT",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 92.49,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:58:08",
+        "close": 92.08,
+        "hour_return_pct": -0.9679500967950116,
+        "same_hour_volume_ratio": 3.375156497473414,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 92.64120358082415,
+        "lower95_empirical": 89.6142522160995,
+        "upper95_empirical": 96.32226980029439,
+        "calibration_n": 214,
+        "baseline": 92.49
+      }
+    },
+    {
+      "ticker": "SVCB",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 10.44,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 10.8,
+        "hour_return_pct": -1.0535959688501961,
+        "same_hour_volume_ratio": 4.461803910954733,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 10.454679759564822,
+        "lower95_empirical": 10.123930540616472,
+        "upper95_empirical": 10.853458983519118,
+        "calibration_n": 214,
+        "baseline": 10.44
+      }
+    },
+    {
+      "ticker": "MGKL",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 1.563,
+      "data_status": "ok",
+      "liquid": false,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 1.407,
+        "hour_return_pct": 0.0,
+        "same_hour_volume_ratio": 4.230971993410214,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 1.5591541471914572,
+        "lower95_empirical": 1.4741500049944485,
+        "upper95_empirical": 1.6180202110109467,
+        "calibration_n": 214,
+        "baseline": 1.563
+      }
+    },
+    {
+      "ticker": "BSPB",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 259.7,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:07",
+        "close": 260.66,
+        "hour_return_pct": -0.5797543672286132,
+        "same_hour_volume_ratio": 1.492089650626236,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 259.6620999043554,
+        "lower95_empirical": 247.0978563306113,
+        "upper95_empirical": 270.02668232431313,
+        "calibration_n": 214,
+        "baseline": 259.7
+      }
+    },
+    {
+      "ticker": "MOEX",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 157.62,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 162.35,
+        "hour_return_pct": -0.5391165839612744,
+        "same_hour_volume_ratio": 4.136558705232569,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 157.75012953621138,
+        "lower95_empirical": 153.52965319013836,
+        "upper95_empirical": 161.90817004299348,
+        "calibration_n": 214,
+        "baseline": 157.62
+      }
+    },
+    {
+      "ticker": "IRAO",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 2.868,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:08",
+        "close": 2.795,
+        "hour_return_pct": -1.3761467889908285,
+        "same_hour_volume_ratio": 4.280657619671898,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 2.8753034676798097,
+        "lower95_empirical": 2.7617200904279633,
+        "upper95_empirical": 2.984240162686224,
+        "calibration_n": 214,
+        "baseline": 2.868
+      }
+    },
+    {
+      "ticker": "HYDR",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 0.4695,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:58:08",
+        "close": 0.4688,
+        "hour_return_pct": -0.403654132143616,
+        "same_hour_volume_ratio": 0.6838328075709779,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 0.4708522837126978,
+        "lower95_empirical": 0.450617867435322,
+        "upper95_empirical": 0.49643177346705486,
+        "calibration_n": 214,
+        "baseline": 0.4695
+      }
+    },
+    {
+      "ticker": "SNGS",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 18.19,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:08",
+        "close": 18.11,
+        "hour_return_pct": -1.2540894220283594,
+        "same_hour_volume_ratio": 1.7591750520726377,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 18.23095205774198,
+        "lower95_empirical": 17.490741305206843,
+        "upper95_empirical": 18.96621976262511,
+        "calibration_n": 214,
+        "baseline": 18.19
+      }
+    },
+    {
+      "ticker": "SNGSP",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 41.195,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 41.02,
+        "hour_return_pct": -0.7860684484218061,
+        "same_hour_volume_ratio": 2.059733024229734,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 41.20458984097969,
+        "lower95_empirical": 39.8826481735475,
+        "upper95_empirical": 42.53549460522589,
+        "calibration_n": 214,
+        "baseline": 41.195
+      }
+    },
+    {
+      "ticker": "AFLT",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 35.99,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 37.17,
+        "hour_return_pct": -1.2224289131012478,
+        "same_hour_volume_ratio": 7.937809532403697,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 36.04290150228416,
+        "lower95_empirical": 34.507807329744914,
+        "upper95_empirical": 37.641362810162406,
+        "calibration_n": 214,
+        "baseline": 35.99
+      }
+    },
+    {
+      "ticker": "MTSS",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 176.75,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:58:08",
+        "close": 176.1,
+        "hour_return_pct": -0.7328072153325871,
+        "same_hour_volume_ratio": 3.589663325452063,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 176.784013707364,
+        "lower95_empirical": 170.2347897342643,
+        "upper95_empirical": 182.86071090405503,
+        "calibration_n": 214,
+        "baseline": 176.75
+      }
+    },
+    {
+      "ticker": "PHOR",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 5662.0,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:08",
+        "close": 5661.0,
+        "hour_return_pct": -0.7364544976328213,
+        "same_hour_volume_ratio": 3.345797431311982,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 5670.199981563175,
+        "lower95_empirical": 5425.3256270512575,
+        "upper95_empirical": 5895.886720660013,
+        "calibration_n": 214,
+        "baseline": 5662.0
+      }
+    },
+    {
+      "ticker": "TRNFP",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 1066.8,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 1069.2,
+        "hour_return_pct": -0.6134969325153339,
+        "same_hour_volume_ratio": 0.7754090349777157,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 1067.4010041080285,
+        "lower95_empirical": 1039.476161363904,
+        "upper95_empirical": 1097.271393682921,
+        "calibration_n": 214,
+        "baseline": 1066.8
+      }
+    },
+    {
+      "ticker": "FIXR",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 0.4156,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 0.4436,
+        "hour_return_pct": -0.805008944543828,
+        "same_hour_volume_ratio": 9.64042048151916,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 0.4159921034607648,
+        "lower95_empirical": 0.4006439175609632,
+        "upper95_empirical": 0.4329138563014739,
+        "calibration_n": 214,
+        "baseline": 0.4156
+      }
+    },
+    {
+      "ticker": "ENPG",
+      "daily_as_of": "2026-10-26",
+      "daily_close": 334.5,
+      "data_status": "ok",
+      "liquid": true,
+      "hourly": {
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-27 18:00:00",
+        "end_msk": "2026-10-27 18:59:59",
+        "close": 329.1,
+        "hour_return_pct": -2.0098258150960224,
+        "same_hour_volume_ratio": 4.903773076074432,
+        "comparison_n": 10,
+        "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
+      },
+      "research_forecast1": {
+        "horizon": 1,
+        "point": 335.11697652925324,
+        "lower95_empirical": 318.2717565488344,
+        "upper95_empirical": 354.1962381183091,
+        "calibration_n": 214,
+        "baseline": 334.5
+      }
+    }
+  ]
+}
