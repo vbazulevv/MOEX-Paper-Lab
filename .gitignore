@@ -9,3 +9,8 @@ reports/
 # The live working data is user-generated. Only sample data is committed.
 data/trades.csv
 data/prices.csv
+
+cloud_data/
+cloud_state/
+cloud_reports/
+offline_reports/

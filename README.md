@@ -1,5 +1,15 @@
 # MOEX Paper Lab 📈
 
+## Cloud research extension
+
+The coursework console application remains available. The separate MOEX research pipeline downloads actual candles, checks forecasts on history and keeps an append-only forward ledger. It does not trade or import the sample portfolio. See [setup and methods](docs/CLOUD_SETUP_RU.md).
+
+- [Latest cloud report](https://github.com/vbazulevv/MOEX-Paper-Lab/blob/moex-data/cloud_reports/latest.md)
+- [Run status and manual start](https://github.com/vbazulevv/MOEX-Paper-Lab/actions/workflows/market-cloud.yml)
+
+Scheduled updates: weekdays, every two hours from 06:17 to 22:17 Moscow time. Only pre-session runs can register new forward forecasts. Historical accuracy and live validation are reported separately.
+
+
 **Mini-Project 2: Programming** — An offline Python console application for keeping a **fictional paper-trading portfolio**. It automates the repetitive calculations involved in recording stock trades, tracking holdings, estimating profit/loss, checking simple concentration and downside rules, and exporting a CSV report.
 
 > **Educational project only.** The program does not connect to a brokerage account, submit orders, fetch live quotes, or recommend investments. All sample market prices and trades are **made up** for demonstration; the tickers are used as examples only. RUB is the display currency.

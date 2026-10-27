@@ -1,0 +1,55 @@
+name: MOEX cloud research
+
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC: 06:17, 08:17, ... 22:17 Moscow time. First run is before session.
+    - cron: '17 3-19/2 * * 1-5'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: moex-cloud-ledger
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Restore persistent research state
+        run: python scripts/cloud_state.py restore
+      - name: Collect MOEX data and calculate research
+        id: research
+        continue-on-error: true
+        run: python cloud_runner.py
+      - name: Add report to the run summary
+        if: always()
+        run: |
+          if [ -f cloud_reports/latest.md ]; then
+            cat cloud_reports/latest.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Save data and forward ledger to moex-data branch
+        if: steps.research.outcome == 'success'
+        run: python scripts/cloud_state.py publish
+      - name: Upload report and data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: moex-research-${{ github.run_id }}
+          path: |
+            cloud_reports/
+            cloud_data/
+            cloud_state/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Fail if research failed
+        if: steps.research.outcome != 'success'
+        run: exit 1

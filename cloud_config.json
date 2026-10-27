@@ -1,0 +1,9 @@
+{
+  "tickers": ["SOFL", "OZON", "YDEX", "ASTR", "POSI", "VKCO", "HEAD", "DIAS", "SBER", "T", "NVTK", "GAZP", "LKOH", "ROSN", "TATN", "GMKN", "NLMK", "CHMF", "MAGN", "PLZL", "ALRS", "RUAL", "MTLR", "FLOT", "SVCB", "MGKL", "BSPB", "MOEX", "IRAO", "HYDR", "SNGS", "SNGSP", "AFLT", "MTSS", "PHOR", "TRNFP", "FIXR", "ENPG"],
+  "history_start": "2025-10-01",
+  "horizons": [1, 3, 5, 10],
+  "workers": 4,
+  "min_history": 120,
+  "min_median_turnover_rub": 20000000,
+  "intraday": true
+}
