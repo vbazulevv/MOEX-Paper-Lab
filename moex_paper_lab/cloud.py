@@ -465,6 +465,19 @@ def run_pipeline(config: dict, root: Path, output: Path, now: datetime | None = 
               "new_forward_forecasts": len(new_forecasts), "forward_forecasts_total": len(forecasts) + len(new_forecasts),
               "settled_forward_forecasts": sum(o["status"] == "settled" for o in outcomes)}
     atomic_json(output / "latest.json", report)
+    summary = {key: report[key] for key in (
+        "schema_version", "model_version", "generated_at_msk", "snapshot_cutoff_msk",
+        "requested_tickers", "daily_rows", "all_failed", "offline",
+        "new_forward_forecasts", "forward_forecasts_total", "settled_forward_forecasts")}
+    summary["source"] = "MOEX ISS: shares TQBR, index IMOEX SNDX"
+    summary["source_errors"] = [s for s in report["sources"] if s["status"] != "ok"]
+    summary["stocks"] = [{"ticker": r["ticker"], "daily_as_of": r["as_of"], "daily_close": r["close"],
+                           "data_status": r["status"], "liquid": r["liquid"],
+                           "hourly": r.get("intraday", {}),
+                           "research_forecast1": next((f for f in r["forecasts"] if f["horizon"] == 1), None)}
+                          for r in research]
+    atomic_json(output / "summary.json", summary)
+    atomic_json(output / "forward_ledger.json", {"forecasts": forecasts + new_forecasts, "outcomes": outcomes})
     markdown = render_report(report)
     (output / "latest.md").write_text(markdown, encoding="utf-8")
     (output / "index.html").write_text(render_html(report), encoding="utf-8")

@@ -39,6 +39,11 @@ jobs:
       - name: Save data and forward ledger to moex-data branch
         if: steps.research.outcome == 'success'
         run: python scripts/cloud_state.py publish
+      - name: Upload public report
+        if: steps.research.outcome == 'success'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: cloud_reports
       - name: Upload report and data
         if: always()
         uses: actions/upload-artifact@v4
@@ -53,3 +58,18 @@ jobs:
       - name: Fail if research failed
         if: steps.research.outcome != 'success'
         run: exit 1
+
+  publish-report:
+    needs: research
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish report page
+        id: deployment
+        uses: actions/deploy-pages@v4
