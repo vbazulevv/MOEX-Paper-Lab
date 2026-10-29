@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "model_version": "shrink-drift20-v1",
-  "generated_at_msk": "2026-10-29T13:02:29.885667+03:00",
-  "snapshot_cutoff_msk": "2026-10-29T13:01:44.914398+03:00",
+  "generated_at_msk": "2026-10-29T20:28:06.161046+03:00",
+  "snapshot_cutoff_msk": "2026-10-29T20:27:22.179320+03:00",
   "requested_tickers": 38,
   "daily_rows": 10729,
   "research": [
@@ -145,11 +145,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 50.86,
-        "hour_return_pct": -0.11783189316575404,
-        "same_hour_volume_ratio": 1.1165076611737497,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:58:03",
+        "close": 50.84,
+        "hour_return_pct": -0.07861635220125507,
+        "same_hour_volume_ratio": 1.220536756126021,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -293,11 +293,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 3796.5,
-        "hour_return_pct": -0.5500982318271119,
-        "same_hour_volume_ratio": 2.0533076082410244,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 3814.0,
+        "hour_return_pct": 0.23653088042050463,
+        "same_hour_volume_ratio": 1.5129197614813266,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -441,11 +441,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 3506.0,
-        "hour_return_pct": -1.26724866234863,
-        "same_hour_volume_ratio": 5.199936308118842,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 3462.5,
+        "hour_return_pct": -0.043302540415701696,
+        "same_hour_volume_ratio": 1.259778323290932,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -589,11 +589,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 218.95,
-        "hour_return_pct": -0.3413746017296271,
-        "same_hour_volume_ratio": 1.028948013398328,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 218.75,
+        "hour_return_pct": -0.18252338580880823,
+        "same_hour_volume_ratio": 0.16700297876429326,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -737,11 +737,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 1228.6,
-        "hour_return_pct": -0.4214621494569637,
-        "same_hour_volume_ratio": 0.7038486946734849,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 1216.0,
+        "hour_return_pct": 0.016450074025331496,
+        "same_hour_volume_ratio": 0.41324241880495244,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -885,11 +885,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 143.35,
-        "hour_return_pct": -0.6927606511950124,
-        "same_hour_volume_ratio": 1.6247439984700254,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 142.85,
+        "hour_return_pct": 0.03501400560221857,
+        "same_hour_volume_ratio": 0.5853002971740077,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1033,11 +1033,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 2712.0,
-        "hour_return_pct": -0.07369196757552876,
-        "same_hour_volume_ratio": 0.6260277559570568,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 2695.0,
+        "hour_return_pct": 0.0,
+        "same_hour_volume_ratio": 0.22930903568716782,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1181,11 +1181,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 1204.0,
-        "hour_return_pct": -1.6339869281045805,
-        "same_hour_volume_ratio": 14.713068181818182,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:55:02",
+        "close": 1208.0,
+        "hour_return_pct": 0.041407867494824835,
+        "same_hour_volume_ratio": 0.20784313725490197,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1329,11 +1329,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 296.6,
-        "hour_return_pct": -0.392920710615563,
-        "same_hour_volume_ratio": 3.5590262224952185,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 294.75,
+        "hour_return_pct": 0.09848536303742605,
+        "same_hour_volume_ratio": 0.7753223432837836,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1477,11 +1477,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 276.76,
-        "hour_return_pct": -0.10827979499026252,
-        "same_hour_volume_ratio": 1.2087473241454083,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 276.04,
+        "hour_return_pct": -0.05069157795639656,
+        "same_hour_volume_ratio": 0.48675798390124786,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1625,11 +1625,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 1165.1,
-        "hour_return_pct": -1.7622259696458809,
-        "same_hour_volume_ratio": 3.8913856022506934,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 1156.9,
+        "hour_return_pct": 0.060543158623072024,
+        "same_hour_volume_ratio": 1.3744910828605819,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1773,11 +1773,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 115.71,
-        "hour_return_pct": -0.6013229104028905,
-        "same_hour_volume_ratio": 1.3634615289048795,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 114.82,
+        "hour_return_pct": 0.13954299668585968,
+        "same_hour_volume_ratio": 0.9757941386204453,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1921,11 +1921,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 6258.0,
-        "hour_return_pct": -0.3899721448467952,
-        "same_hour_volume_ratio": 0.8785019619850293,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 6245.0,
+        "hour_return_pct": 0.05607626371866292,
+        "same_hour_volume_ratio": 0.3460000295146319,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2069,11 +2069,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 383.95,
-        "hour_return_pct": -0.4149915704837359,
-        "same_hour_volume_ratio": 0.9859747215585449,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 384.45,
+        "hour_return_pct": 0.16935904116726075,
+        "same_hour_volume_ratio": 0.6462800551761105,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2217,11 +2217,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 641.6,
-        "hour_return_pct": 0.0311817898347444,
-        "same_hour_volume_ratio": 0.7321897233201581,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 639.8,
+        "hour_return_pct": 0.015632327653580802,
+        "same_hour_volume_ratio": 0.5347070034522327,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2365,11 +2365,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 114.4,
-        "hour_return_pct": 0.052475074339697336,
-        "same_hour_volume_ratio": 1.1384671780841513,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 114.2,
+        "hour_return_pct": -0.13990905911157592,
+        "same_hour_volume_ratio": 0.8617191961493487,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2513,11 +2513,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 74.96,
-        "hour_return_pct": -0.026673779674590836,
-        "same_hour_volume_ratio": 1.4351149530125515,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 74.4,
+        "hour_return_pct": 0.08071025020177647,
+        "same_hour_volume_ratio": 1.8978832157342074,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2661,11 +2661,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 707.0,
-        "hour_return_pct": -0.16944365998305955,
-        "same_hour_volume_ratio": 1.073935638722502,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 690.4,
+        "hour_return_pct": 0.20319303338169892,
+        "same_hour_volume_ratio": 1.197586106024984,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2809,11 +2809,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 22.965,
-        "hour_return_pct": -0.32552083333332593,
-        "same_hour_volume_ratio": 1.4528863642240821,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 22.67,
+        "hour_return_pct": -0.08814455707359947,
+        "same_hour_volume_ratio": 1.4978098804452384,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2957,11 +2957,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 1050.8,
-        "hour_return_pct": -0.45471769609700674,
-        "same_hour_volume_ratio": 2.3411092431689444,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 1050.6,
+        "hour_return_pct": 0.1525262154432605,
+        "same_hour_volume_ratio": 1.4200737603365314,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3105,11 +3105,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 20.7,
-        "hour_return_pct": 0.09671179883945502,
-        "same_hour_volume_ratio": 1.3404973588274682,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 20.28,
+        "hour_return_pct": -0.09852216748768017,
+        "same_hour_volume_ratio": 1.7663078998650876,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3253,11 +3253,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 24.78,
-        "hour_return_pct": -0.48192771084336616,
-        "same_hour_volume_ratio": 1.140550763778541,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:08",
+        "close": 24.545,
+        "hour_return_pct": 0.16323199347072492,
+        "same_hour_volume_ratio": 0.4981856384337999,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3401,11 +3401,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 43.85,
-        "hour_return_pct": -0.4992058089403173,
-        "same_hour_volume_ratio": 0.7519630263684058,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 44.1,
+        "hour_return_pct": -0.022670596236673557,
+        "same_hour_volume_ratio": 0.2349808144658234,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3549,11 +3549,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 90.82,
-        "hour_return_pct": -0.09899901000990363,
-        "same_hour_volume_ratio": 0.32187881906477134,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 89.82,
+        "hour_return_pct": 0.4024144869215318,
+        "same_hour_volume_ratio": 1.6461337256825241,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3697,11 +3697,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 10.685,
-        "hour_return_pct": -0.5583992554676454,
-        "same_hour_volume_ratio": 0.9342400362132467,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 10.68,
+        "hour_return_pct": -0.18691588785045843,
+        "same_hour_volume_ratio": 0.2248466473947684,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3845,11 +3845,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:08",
         "close": 0.988,
         "hour_return_pct": 0.0,
-        "same_hour_volume_ratio": 14.373517786561266,
+        "same_hour_volume_ratio": 1.5714285714285714,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3993,11 +3993,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 260.0,
-        "hour_return_pct": -0.23023791250960102,
-        "same_hour_volume_ratio": 4.239508152900294,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 259.14,
+        "hour_return_pct": -0.027005130974877556,
+        "same_hour_volume_ratio": 1.4715423179003244,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4141,11 +4141,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 163.48,
-        "hour_return_pct": 0.34988644036584304,
-        "same_hour_volume_ratio": 2.85460361573089,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 164.95,
+        "hour_return_pct": 0.377289600194719,
+        "same_hour_volume_ratio": 1.51618697856373,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4289,11 +4289,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 2.768,
-        "hour_return_pct": -0.503235082674347,
-        "same_hour_volume_ratio": 0.6005182828752189,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 2.7625,
+        "hour_return_pct": -0.19869942196530932,
+        "same_hour_volume_ratio": 0.7404669832101425,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4437,11 +4437,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 0.4582,
-        "hour_return_pct": -0.5642361111111049,
-        "same_hour_volume_ratio": 2.4480892626782156,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 0.46,
+        "hour_return_pct": 0.4805591961555278,
+        "same_hour_volume_ratio": 0.4788939190015906,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4585,11 +4585,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 17.88,
-        "hour_return_pct": 0.0,
-        "same_hour_volume_ratio": 0.710171807887544,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 17.89,
+        "hour_return_pct": -0.02794076557697256,
+        "same_hour_volume_ratio": 0.25713848508033665,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4733,11 +4733,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 41.0,
-        "hour_return_pct": -0.4733584172836536,
-        "same_hour_volume_ratio": 0.5324768339875523,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 41.125,
+        "hour_return_pct": -0.1335599805730947,
+        "same_hour_volume_ratio": 3.302957222131167,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4881,11 +4881,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 37.26,
-        "hour_return_pct": -1.1408861767046918,
-        "same_hour_volume_ratio": 3.03836176146313,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 37.19,
+        "hour_return_pct": -0.026881720430116385,
+        "same_hour_volume_ratio": 0.32202189709956364,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5029,11 +5029,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
         "close": 177.45,
-        "hour_return_pct": -0.22490863086871427,
-        "same_hour_volume_ratio": 0.5793427230046948,
+        "hour_return_pct": 0.028184892897398228,
+        "same_hour_volume_ratio": 0.46194554696748136,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5177,11 +5177,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 5529.0,
-        "hour_return_pct": -0.18053800324968616,
-        "same_hour_volume_ratio": 0.8651205370765944,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 5474.0,
+        "hour_return_pct": -0.4184100418409997,
+        "same_hour_volume_ratio": 0.7519816948598512,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5325,11 +5325,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 1069.4,
-        "hour_return_pct": -0.33550792171480603,
-        "same_hour_volume_ratio": 1.2322599294675378,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:59",
+        "close": 1063.0,
+        "hour_return_pct": 0.07531538316700725,
+        "same_hour_volume_ratio": 0.8707609245824194,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5472,12 +5472,12 @@
       ],
       "data_age_calendar_days": 1,
       "intraday": {
-        "status": "price_volume_watch",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 0.4566,
-        "hour_return_pct": 0.7947019867549754,
-        "same_hour_volume_ratio": 10.339270987959756,
+        "status": "no_confirmation",
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:07",
+        "close": 0.4547,
+        "hour_return_pct": 0.02199736031676114,
+        "same_hour_volume_ratio": 3.334227467811159,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5621,11 +5621,11 @@
       "data_age_calendar_days": 1,
       "intraday": {
         "status": "no_confirmation",
-        "begin_msk": "2026-10-29 11:00:00",
-        "end_msk": "2026-10-29 11:59:59",
-        "close": 324.55,
-        "hour_return_pct": -0.5820186858630616,
-        "same_hour_volume_ratio": 1.1773849402452101,
+        "begin_msk": "2026-10-29 19:00:00",
+        "end_msk": "2026-10-29 19:59:07",
+        "close": 323.4,
+        "hour_return_pct": 0.09285051067779992,
+        "same_hour_volume_ratio": 0.25687211214660505,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5644,8 +5644,8 @@
     {
       "ticker": "AFLT",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5662,8 +5662,8 @@
     {
       "ticker": "ALRS",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ALRS/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5680,8 +5680,8 @@
     {
       "ticker": "ASTR",
       "status": "ok",
-      "rows": 365,
-      "last": "2026-10-29 11:00:00",
+      "rows": 373,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ASTR/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5698,8 +5698,8 @@
     {
       "ticker": "BSPB",
       "status": "ok",
-      "rows": 364,
-      "last": "2026-10-29 11:00:00",
+      "rows": 372,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/BSPB/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5716,8 +5716,8 @@
     {
       "ticker": "CHMF",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/CHMF/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5734,8 +5734,8 @@
     {
       "ticker": "DIAS",
       "status": "ok",
-      "rows": 362,
-      "last": "2026-10-29 11:00:00",
+      "rows": 370,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/DIAS/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5752,8 +5752,8 @@
     {
       "ticker": "ENPG",
       "status": "ok",
-      "rows": 361,
-      "last": "2026-10-29 11:00:00",
+      "rows": 369,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ENPG/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5770,8 +5770,8 @@
     {
       "ticker": "FIXR",
       "status": "ok",
-      "rows": 363,
-      "last": "2026-10-29 11:00:00",
+      "rows": 371,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FIXR/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5788,8 +5788,8 @@
     {
       "ticker": "FLOT",
       "status": "ok",
-      "rows": 365,
-      "last": "2026-10-29 11:00:00",
+      "rows": 373,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FLOT/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5806,8 +5806,8 @@
     {
       "ticker": "GAZP",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5824,8 +5824,8 @@
     {
       "ticker": "GMKN",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5842,8 +5842,8 @@
     {
       "ticker": "HEAD",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HEAD/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5860,8 +5860,8 @@
     {
       "ticker": "HYDR",
       "status": "ok",
-      "rows": 363,
-      "last": "2026-10-29 11:00:00",
+      "rows": 371,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HYDR/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5887,8 +5887,8 @@
     {
       "ticker": "IRAO",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5905,8 +5905,8 @@
     {
       "ticker": "LKOH",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LKOH/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5923,8 +5923,8 @@
     {
       "ticker": "MAGN",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5941,8 +5941,8 @@
     {
       "ticker": "MGKL",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-10-29 11:00:00",
+      "rows": 360,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MGKL/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5959,8 +5959,8 @@
     {
       "ticker": "MOEX",
       "status": "ok",
-      "rows": 365,
-      "last": "2026-10-29 11:00:00",
+      "rows": 373,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MOEX/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5977,8 +5977,8 @@
     {
       "ticker": "MTLR",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTLR/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -5995,8 +5995,8 @@
     {
       "ticker": "MTSS",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6013,8 +6013,8 @@
     {
       "ticker": "NLMK",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6031,8 +6031,8 @@
     {
       "ticker": "NVTK",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NVTK/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6049,8 +6049,8 @@
     {
       "ticker": "OZON",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/OZON/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6067,8 +6067,8 @@
     {
       "ticker": "PHOR",
       "status": "ok",
-      "rows": 365,
-      "last": "2026-10-29 11:00:00",
+      "rows": 373,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PHOR/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6085,8 +6085,8 @@
     {
       "ticker": "PLZL",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PLZL/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6103,8 +6103,8 @@
     {
       "ticker": "POSI",
       "status": "ok",
-      "rows": 365,
-      "last": "2026-10-29 11:00:00",
+      "rows": 373,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/POSI/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6121,8 +6121,8 @@
     {
       "ticker": "ROSN",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6139,8 +6139,8 @@
     {
       "ticker": "RUAL",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/RUAL/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6157,8 +6157,8 @@
     {
       "ticker": "SBER",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6175,8 +6175,8 @@
     {
       "ticker": "SNGS",
       "status": "ok",
-      "rows": 365,
-      "last": "2026-10-29 11:00:00",
+      "rows": 373,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGS/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6193,8 +6193,8 @@
     {
       "ticker": "SNGSP",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6211,8 +6211,8 @@
     {
       "ticker": "SOFL",
       "status": "ok",
-      "rows": 359,
-      "last": "2026-10-29 11:00:00",
+      "rows": 367,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SOFL/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6229,8 +6229,8 @@
     {
       "ticker": "SVCB",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SVCB/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6247,8 +6247,8 @@
     {
       "ticker": "T",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/T/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6265,8 +6265,8 @@
     {
       "ticker": "TATN",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6283,8 +6283,8 @@
     {
       "ticker": "TRNFP",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TRNFP/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6301,8 +6301,8 @@
     {
       "ticker": "VKCO",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/VKCO/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
@@ -6319,8 +6319,8 @@
     {
       "ticker": "YDEX",
       "status": "ok",
-      "rows": 366,
-      "last": "2026-10-29 11:00:00",
+      "rows": 374,
+      "last": "2026-10-29 19:00:00",
       "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/YDEX/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60

@@ -11,8 +11,8 @@
   {
     "ticker": "AFLT",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -29,8 +29,8 @@
   {
     "ticker": "ALRS",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ALRS/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -47,8 +47,8 @@
   {
     "ticker": "ASTR",
     "status": "ok",
-    "rows": 365,
-    "last": "2026-10-29 11:00:00",
+    "rows": 373,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ASTR/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -65,8 +65,8 @@
   {
     "ticker": "BSPB",
     "status": "ok",
-    "rows": 364,
-    "last": "2026-10-29 11:00:00",
+    "rows": 372,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/BSPB/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -83,8 +83,8 @@
   {
     "ticker": "CHMF",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/CHMF/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -101,8 +101,8 @@
   {
     "ticker": "DIAS",
     "status": "ok",
-    "rows": 362,
-    "last": "2026-10-29 11:00:00",
+    "rows": 370,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/DIAS/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -119,8 +119,8 @@
   {
     "ticker": "ENPG",
     "status": "ok",
-    "rows": 361,
-    "last": "2026-10-29 11:00:00",
+    "rows": 369,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ENPG/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -137,8 +137,8 @@
   {
     "ticker": "FIXR",
     "status": "ok",
-    "rows": 363,
-    "last": "2026-10-29 11:00:00",
+    "rows": 371,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FIXR/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -155,8 +155,8 @@
   {
     "ticker": "FLOT",
     "status": "ok",
-    "rows": 365,
-    "last": "2026-10-29 11:00:00",
+    "rows": 373,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FLOT/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -173,8 +173,8 @@
   {
     "ticker": "GAZP",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -191,8 +191,8 @@
   {
     "ticker": "GMKN",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -209,8 +209,8 @@
   {
     "ticker": "HEAD",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HEAD/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -227,8 +227,8 @@
   {
     "ticker": "HYDR",
     "status": "ok",
-    "rows": 363,
-    "last": "2026-10-29 11:00:00",
+    "rows": 371,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HYDR/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -254,8 +254,8 @@
   {
     "ticker": "IRAO",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -272,8 +272,8 @@
   {
     "ticker": "LKOH",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LKOH/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -290,8 +290,8 @@
   {
     "ticker": "MAGN",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -308,8 +308,8 @@
   {
     "ticker": "MGKL",
     "status": "ok",
-    "rows": 352,
-    "last": "2026-10-29 11:00:00",
+    "rows": 360,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MGKL/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -326,8 +326,8 @@
   {
     "ticker": "MOEX",
     "status": "ok",
-    "rows": 365,
-    "last": "2026-10-29 11:00:00",
+    "rows": 373,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MOEX/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -344,8 +344,8 @@
   {
     "ticker": "MTLR",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTLR/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -362,8 +362,8 @@
   {
     "ticker": "MTSS",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -380,8 +380,8 @@
   {
     "ticker": "NLMK",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -398,8 +398,8 @@
   {
     "ticker": "NVTK",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NVTK/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -416,8 +416,8 @@
   {
     "ticker": "OZON",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/OZON/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -434,8 +434,8 @@
   {
     "ticker": "PHOR",
     "status": "ok",
-    "rows": 365,
-    "last": "2026-10-29 11:00:00",
+    "rows": 373,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PHOR/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -452,8 +452,8 @@
   {
     "ticker": "PLZL",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PLZL/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -470,8 +470,8 @@
   {
     "ticker": "POSI",
     "status": "ok",
-    "rows": 365,
-    "last": "2026-10-29 11:00:00",
+    "rows": 373,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/POSI/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -488,8 +488,8 @@
   {
     "ticker": "ROSN",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -506,8 +506,8 @@
   {
     "ticker": "RUAL",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/RUAL/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -524,8 +524,8 @@
   {
     "ticker": "SBER",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -542,8 +542,8 @@
   {
     "ticker": "SNGS",
     "status": "ok",
-    "rows": 365,
-    "last": "2026-10-29 11:00:00",
+    "rows": 373,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGS/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -560,8 +560,8 @@
   {
     "ticker": "SNGSP",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -578,8 +578,8 @@
   {
     "ticker": "SOFL",
     "status": "ok",
-    "rows": 359,
-    "last": "2026-10-29 11:00:00",
+    "rows": 367,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SOFL/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -596,8 +596,8 @@
   {
     "ticker": "SVCB",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SVCB/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -614,8 +614,8 @@
   {
     "ticker": "T",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/T/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -632,8 +632,8 @@
   {
     "ticker": "TATN",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -650,8 +650,8 @@
   {
     "ticker": "TRNFP",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TRNFP/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -668,8 +668,8 @@
   {
     "ticker": "VKCO",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/VKCO/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
@@ -686,8 +686,8 @@
   {
     "ticker": "YDEX",
     "status": "ok",
-    "rows": 366,
-    "last": "2026-10-29 11:00:00",
+    "rows": 374,
+    "last": "2026-10-29 19:00:00",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/YDEX/candles.json?from=2026-10-01&till=2026-10-29&interval=60&start=0&iss.meta=off&iss.only=candles",
     "board": "TQBR",
     "interval": 60
