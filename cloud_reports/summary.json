@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
   "model_version": "shrink-drift20-v1",
-  "generated_at_msk": "2026-11-04T21:40:22.248828+03:00",
-  "snapshot_cutoff_msk": "2026-11-04T21:39:35.041971+03:00",
+  "generated_at_msk": "2026-11-05T03:24:19.057364+03:00",
+  "snapshot_cutoff_msk": "2026-11-05T03:23:32.429639+03:00",
   "requested_tickers": 38,
-  "daily_rows": 10885,
+  "daily_rows": 10924,
   "all_failed": false,
   "offline": false,
-  "new_forward_forecasts": 0,
-  "forward_forecasts_total": 608,
-  "settled_forward_forecasts": 266,
+  "new_forward_forecasts": 152,
+  "forward_forecasts_total": 760,
+  "settled_forward_forecasts": 342,
   "source": "MOEX ISS: shares TQBR, index IMOEX SNDX",
   "source_errors": [],
   "stocks": [
     {
       "ticker": "SOFL",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 53.38,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 53.04,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 53.04,
@@ -31,21 +31,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 53.44290815048767,
-        "lower95_empirical": 50.58320950047733,
-        "upper95_empirical": 55.81591839798077,
-        "calibration_n": 220,
-        "baseline": 53.38
+        "point": 53.096901365663314,
+        "lower95_empirical": 50.25642287188536,
+        "upper95_empirical": 55.4509133063609,
+        "calibration_n": 221,
+        "baseline": 53.04
       }
     },
     {
       "ticker": "OZON",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 3795.5,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 3762.0,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 3762.0,
@@ -56,21 +56,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 3804.1285717714563,
-        "lower95_empirical": 3634.2855849335915,
-        "upper95_empirical": 3987.61191425811,
-        "calibration_n": 192,
-        "baseline": 3795.5
+        "point": 3768.733894463419,
+        "lower95_empirical": 3600.735991694141,
+        "upper95_empirical": 3950.4591146960934,
+        "calibration_n": 193,
+        "baseline": 3762.0
       }
     },
     {
       "ticker": "YDEX",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 3423.5,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 3415.5,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 3415.5,
@@ -81,21 +81,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 3420.3283263832186,
-        "lower95_empirical": 3289.167781675873,
-        "upper95_empirical": 3556.1586177816703,
-        "calibration_n": 220,
-        "baseline": 3423.5
+        "point": 3412.1608208195094,
+        "lower95_empirical": 3281.378091540593,
+        "upper95_empirical": 3547.634693263644,
+        "calibration_n": 221,
+        "baseline": 3415.5
       }
     },
     {
       "ticker": "ASTR",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 216.25,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 214.55,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 214.55,
@@ -106,21 +106,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 216.26567090152145,
-        "lower95_empirical": 200.4721058177156,
-        "upper95_empirical": 238.3681957853308,
-        "calibration_n": 220,
-        "baseline": 216.25
+        "point": 214.54687684198987,
+        "lower95_empirical": 198.88129284941996,
+        "upper95_empirical": 236.45756487091208,
+        "calibration_n": 221,
+        "baseline": 214.55
       }
     },
     {
       "ticker": "POSI",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 1260.2,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 1262.6,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 1262.6,
@@ -131,21 +131,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 1262.369377008648,
-        "lower95_empirical": 1203.895113969345,
-        "upper95_empirical": 1339.2447931761628,
-        "calibration_n": 220,
-        "baseline": 1260.2
+        "point": 1264.9773077177572,
+        "lower95_empirical": 1206.4265711232415,
+        "upper95_empirical": 1341.6927106689345,
+        "calibration_n": 221,
+        "baseline": 1262.6
       }
     },
     {
       "ticker": "VKCO",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 197.6,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 203.0,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 203.0,
@@ -156,21 +156,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 198.79367149104064,
-        "lower95_empirical": 184.31952396267377,
-        "upper95_empirical": 210.9726968290962,
-        "calibration_n": 220,
-        "baseline": 197.6
+        "point": 204.3035142130876,
+        "lower95_empirical": 189.5101015041311,
+        "upper95_empirical": 216.8170741536773,
+        "calibration_n": 221,
+        "baseline": 203.0
       }
     },
     {
       "ticker": "HEAD",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 2702.0,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 2695.0,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 2695.0,
@@ -181,21 +181,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 2701.1241020214397,
-        "lower95_empirical": 2610.690575956766,
-        "upper95_empirical": 2783.190703849088,
-        "calibration_n": 220,
-        "baseline": 2702.0
+        "point": 2694.2950224246624,
+        "lower95_empirical": 2604.3648601887294,
+        "upper95_empirical": 2776.0234577101437,
+        "calibration_n": 221,
+        "baseline": 2695.0
       }
     },
     {
       "ticker": "DIAS",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 1204.5,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 1210.0,
       "data_status": "ok",
       "liquid": false,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:58:01",
         "close": 1210.0,
@@ -206,21 +206,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 1205.5553159682854,
-        "lower95_empirical": 1147.6672585427123,
-        "upper95_empirical": 1262.2711019204394,
-        "calibration_n": 220,
-        "baseline": 1204.5
+        "point": 1210.8950290129833,
+        "lower95_empirical": 1153.0322594370093,
+        "upper95_empirical": 1267.7873127490443,
+        "calibration_n": 221,
+        "baseline": 1210.0
       }
     },
     {
       "ticker": "SBER",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 292.17,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 291.41,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 291.41,
@@ -231,21 +231,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 292.29656957977744,
-        "lower95_empirical": 286.38028659750063,
-        "upper95_empirical": 298.44992888699187,
-        "calibration_n": 220,
-        "baseline": 292.17
+        "point": 291.51617628513793,
+        "lower95_empirical": 285.6269773962057,
+        "upper95_empirical": 297.62041568783917,
+        "calibration_n": 221,
+        "baseline": 291.41
       }
     },
     {
       "ticker": "T",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 273.24,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 272.56,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 272.56,
@@ -256,21 +256,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 273.2655968663754,
-        "lower95_empirical": 263.9024584920382,
-        "upper95_empirical": 282.30636292774324,
-        "calibration_n": 216,
-        "baseline": 273.24
+        "point": 272.5896300674747,
+        "lower95_empirical": 263.253853270073,
+        "upper95_empirical": 281.5994805408773,
+        "calibration_n": 217,
+        "baseline": 272.56
       }
     },
     {
       "ticker": "NVTK",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 1130.4,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 1126.0,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 1126.0,
@@ -281,21 +281,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 1131.2450716180713,
-        "lower95_empirical": 1082.6968398696815,
-        "upper95_empirical": 1189.9886046335896,
-        "calibration_n": 220,
-        "baseline": 1130.4
+        "point": 1126.777593423845,
+        "lower95_empirical": 1078.4810026569774,
+        "upper95_empirical": 1185.2708469193087,
+        "calibration_n": 221,
+        "baseline": 1126.0
       }
     },
     {
       "ticker": "GAZP",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 113.14,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 111.96,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 111.96,
@@ -306,21 +306,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 113.37006127937946,
-        "lower95_empirical": 109.14955300525331,
-        "upper95_empirical": 118.1473277240718,
-        "calibration_n": 220,
-        "baseline": 113.14
+        "point": 112.1680117958707,
+        "lower95_empirical": 107.99525933070721,
+        "upper95_empirical": 116.88003809450592,
+        "calibration_n": 221,
+        "baseline": 111.96
       }
     },
     {
       "ticker": "LKOH",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 6046.5,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 6006.5,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 6006.5,
@@ -331,21 +331,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 6052.707235954221,
-        "lower95_empirical": 5743.718245245524,
-        "upper95_empirical": 6371.804863318911,
-        "calibration_n": 220,
-        "baseline": 6046.5
+        "point": 6010.8633626989285,
+        "lower95_empirical": 5704.042883259998,
+        "upper95_empirical": 6326.9402772340345,
+        "calibration_n": 221,
+        "baseline": 6006.5
       }
     },
     {
       "ticker": "ROSN",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 370.8,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 365.7,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 365.7,
@@ -356,21 +356,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 371.1364370538725,
-        "lower95_empirical": 354.3220245895239,
-        "upper95_empirical": 393.5511358610887,
-        "calibration_n": 220,
-        "baseline": 370.8
+        "point": 365.92553970850446,
+        "lower95_empirical": 349.35415553509876,
+        "upper95_empirical": 387.995726662881,
+        "calibration_n": 221,
+        "baseline": 365.7
       }
     },
     {
       "ticker": "TATN",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 613.2,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 611.9,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 611.9,
@@ -381,21 +381,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 612.9407411145555,
-        "lower95_empirical": 579.8206384414218,
-        "upper95_empirical": 647.308122986872,
-        "calibration_n": 220,
-        "baseline": 613.2
+        "point": 611.588991920111,
+        "lower95_empirical": 578.6368345239613,
+        "upper95_empirical": 645.7123674630478,
+        "calibration_n": 221,
+        "baseline": 611.9
       }
     },
     {
       "ticker": "GMKN",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 111.7,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 112.68,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 112.68,
@@ -406,21 +406,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 111.6163404262597,
-        "lower95_empirical": 106.26675404943944,
-        "upper95_empirical": 116.74309334427035,
-        "calibration_n": 220,
-        "baseline": 111.7
+        "point": 112.6107528276957,
+        "lower95_empirical": 107.21533594397513,
+        "upper95_empirical": 117.76531159379059,
+        "calibration_n": 221,
+        "baseline": 112.68
       }
     },
     {
       "ticker": "NLMK",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 74.46,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 74.14,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 74.14,
@@ -431,21 +431,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 74.46954942715406,
-        "lower95_empirical": 71.33810725504156,
-        "upper95_empirical": 78.33990434778897,
-        "calibration_n": 220,
-        "baseline": 74.46
+        "point": 74.12758458918651,
+        "lower95_empirical": 71.01485318973863,
+        "upper95_empirical": 77.98000470182285,
+        "calibration_n": 221,
+        "baseline": 74.14
       }
     },
     {
       "ticker": "CHMF",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 678.0,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 684.2,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 684.2,
@@ -456,21 +456,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 678.0300538890659,
-        "lower95_empirical": 650.5046965379985,
-        "upper95_empirical": 711.3959443650575,
-        "calibration_n": 220,
-        "baseline": 678.0
+        "point": 684.08577583972,
+        "lower95_empirical": 656.3900836165425,
+        "upper95_empirical": 717.725302296479,
+        "calibration_n": 221,
+        "baseline": 684.2
       }
     },
     {
       "ticker": "MAGN",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 22.155,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 22.125,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 22.125,
@@ -481,21 +481,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 22.1571962940368,
-        "lower95_empirical": 21.155775070733323,
-        "upper95_empirical": 23.43115334778002,
-        "calibration_n": 220,
-        "baseline": 22.155
+        "point": 22.123690643333596,
+        "lower95_empirical": 21.125262017665527,
+        "upper95_empirical": 23.393303857815145,
+        "calibration_n": 221,
+        "baseline": 22.125
       }
     },
     {
       "ticker": "PLZL",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 1034.8,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 1065.2,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 1065.2,
@@ -506,21 +506,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 1035.6715570557944,
-        "lower95_empirical": 976.8467058634707,
-        "upper95_empirical": 1101.272536968338,
-        "calibration_n": 220,
-        "baseline": 1034.8
+        "point": 1066.4198466285154,
+        "lower95_empirical": 1005.9744017047952,
+        "upper95_empirical": 1133.956468790636,
+        "calibration_n": 221,
+        "baseline": 1065.2
       }
     },
     {
       "ticker": "ALRS",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 20.36,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 20.47,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 20.47,
@@ -531,21 +531,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 20.37559905430547,
-        "lower95_empirical": 19.314941543033303,
-        "upper95_empirical": 21.4299769714031,
-        "calibration_n": 220,
-        "baseline": 20.36
+        "point": 20.482688192181975,
+        "lower95_empirical": 19.41671110438061,
+        "upper95_empirical": 21.542544941515487,
+        "calibration_n": 221,
+        "baseline": 20.47
       }
     },
     {
       "ticker": "RUAL",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 23.265,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 23.155,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 23.155,
@@ -556,21 +556,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 23.255532776291,
-        "lower95_empirical": 21.923592143213554,
-        "upper95_empirical": 24.33973234994912,
-        "calibration_n": 220,
-        "baseline": 23.265
+        "point": 23.14360519003385,
+        "lower95_empirical": 21.818989314922604,
+        "upper95_empirical": 24.222276757679722,
+        "calibration_n": 221,
+        "baseline": 23.155
       }
     },
     {
       "ticker": "MTLR",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 44.47,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 44.4,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 44.4,
@@ -581,21 +581,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 44.509512989902156,
-        "lower95_empirical": 42.002247943263086,
-        "upper95_empirical": 46.93214790034049,
-        "calibration_n": 220,
-        "baseline": 44.47
+        "point": 44.41649570566626,
+        "lower95_empirical": 41.915935412494775,
+        "upper95_empirical": 46.832302470179485,
+        "calibration_n": 221,
+        "baseline": 44.4
       }
     },
     {
       "ticker": "FLOT",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 84.41,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 84.03,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 84.03,
@@ -606,21 +606,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 84.45600031925325,
-        "lower95_empirical": 81.70045869966388,
-        "upper95_empirical": 87.79207910340499,
-        "calibration_n": 220,
-        "baseline": 84.41
+        "point": 84.09008129676829,
+        "lower95_empirical": 81.34713682924516,
+        "upper95_empirical": 87.40842881427089,
+        "calibration_n": 221,
+        "baseline": 84.03
       }
     },
     {
       "ticker": "SVCB",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 10.615,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 10.585,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 10.585,
@@ -631,21 +631,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 10.621403920301107,
-        "lower95_empirical": 10.287509535641238,
-        "upper95_empirical": 11.029083278176543,
-        "calibration_n": 220,
-        "baseline": 10.615
+        "point": 10.593055712810209,
+        "lower95_empirical": 10.260406477593243,
+        "upper95_empirical": 10.99960067629203,
+        "calibration_n": 221,
+        "baseline": 10.585
       }
     },
     {
       "ticker": "MGKL",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 0.6065,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 0.5885,
       "data_status": "ok",
       "liquid": false,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 0.5885,
@@ -656,21 +656,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 0.5974802298354579,
-        "lower95_empirical": 0.5395304114576102,
-        "upper95_empirical": 0.620017937387822,
-        "calibration_n": 220,
-        "baseline": 0.6065
+        "point": 0.5795984045724873,
+        "lower95_empirical": 0.5234011769150627,
+        "upper95_empirical": 0.6014583156635452,
+        "calibration_n": 221,
+        "baseline": 0.5885
       }
     },
     {
       "ticker": "BSPB",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 251.5,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 251.73,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 251.73,
@@ -681,21 +681,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 251.50938918173858,
-        "lower95_empirical": 239.7047574933432,
-        "upper95_empirical": 261.514025173359,
-        "calibration_n": 220,
-        "baseline": 251.5
+        "point": 251.7385116451687,
+        "lower95_empirical": 239.98409026203623,
+        "upper95_empirical": 261.74650268330373,
+        "calibration_n": 221,
+        "baseline": 251.73
       }
     },
     {
       "ticker": "MOEX",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 161.45,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 161.54,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 161.54,
@@ -706,21 +706,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 161.54550135286146,
-        "lower95_empirical": 157.2519781665919,
-        "upper95_empirical": 165.8880404508678,
-        "calibration_n": 220,
-        "baseline": 161.45
+        "point": 161.63681178442644,
+        "lower95_empirical": 157.34561416237847,
+        "upper95_empirical": 165.97965260160586,
+        "calibration_n": 221,
+        "baseline": 161.54
       }
     },
     {
       "ticker": "IRAO",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 2.6785,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 2.7125,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 2.7125,
@@ -731,21 +731,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 2.6824659934941995,
-        "lower95_empirical": 2.576695045141151,
-        "upper95_empirical": 2.783737851391719,
-        "calibration_n": 220,
-        "baseline": 2.6785
+        "point": 2.716547417014623,
+        "lower95_empirical": 2.609465494018161,
+        "upper95_empirical": 2.8190454050032514,
+        "calibration_n": 221,
+        "baseline": 2.7125
       }
     },
     {
       "ticker": "HYDR",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 0.4945,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 0.4953,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:58:01",
         "close": 0.4953,
@@ -756,21 +756,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 0.49590950023494823,
-        "lower95_empirical": 0.47476241655565327,
-        "upper95_empirical": 0.5244861776906357,
-        "calibration_n": 220,
-        "baseline": 0.4945
+        "point": 0.4966872276901794,
+        "lower95_empirical": 0.47553438478090915,
+        "upper95_empirical": 0.5252328016235611,
+        "calibration_n": 221,
+        "baseline": 0.4953
       }
     },
     {
       "ticker": "SNGS",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 17.25,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 17.155,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:58:02",
         "close": 17.155,
@@ -781,21 +781,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 17.2723859311839,
-        "lower95_empirical": 16.57723525687515,
-        "upper95_empirical": 17.96560514029507,
-        "calibration_n": 220,
-        "baseline": 17.25
+        "point": 17.177045635182225,
+        "lower95_empirical": 16.486750048489853,
+        "upper95_empirical": 17.865876781927167,
+        "calibration_n": 221,
+        "baseline": 17.155
       }
     },
     {
       "ticker": "SNGSP",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 41.645,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 41.77,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 41.77,
@@ -806,21 +806,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 41.641511859732866,
-        "lower95_empirical": 40.312654780082404,
-        "upper95_empirical": 42.983259383116476,
-        "calibration_n": 220,
-        "baseline": 41.645
+        "point": 41.76502408528091,
+        "lower95_empirical": 40.43341281835458,
+        "upper95_empirical": 43.110204788300365,
+        "calibration_n": 221,
+        "baseline": 41.77
       }
     },
     {
       "ticker": "AFLT",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 37.33,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 37.07,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 37.07,
@@ -831,21 +831,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 37.38068671337497,
-        "lower95_empirical": 35.81034558832402,
-        "upper95_empirical": 39.02795646700224,
-        "calibration_n": 220,
-        "baseline": 37.33
+        "point": 37.116536956611924,
+        "lower95_empirical": 35.56089001172606,
+        "upper95_empirical": 38.75042551578338,
+        "calibration_n": 221,
+        "baseline": 37.07
       }
     },
     {
       "ticker": "MTSS",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 176.25,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 176.95,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 176.95,
@@ -856,21 +856,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 176.34909729471178,
-        "lower95_empirical": 169.83232814909422,
-        "upper95_empirical": 182.31965373443958,
-        "calibration_n": 220,
-        "baseline": 176.25
+        "point": 177.04712713523216,
+        "lower95_empirical": 170.50729785467652,
+        "upper95_empirical": 183.02606216521585,
+        "calibration_n": 221,
+        "baseline": 176.95
       }
     },
     {
       "ticker": "PHOR",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 5201.0,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 5239.0,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 5239.0,
@@ -881,21 +881,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 5201.01250121687,
-        "lower95_empirical": 4968.554421147999,
-        "upper95_empirical": 5406.981888459699,
-        "calibration_n": 220,
-        "baseline": 5201.0
+        "point": 5238.862645948908,
+        "lower95_empirical": 5004.725177607844,
+        "upper95_empirical": 5446.15594950485,
+        "calibration_n": 221,
+        "baseline": 5239.0
       }
     },
     {
       "ticker": "TRNFP",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 1042.4,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 1044.6,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 1044.6,
@@ -906,21 +906,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 1042.5054306801603,
-        "lower95_empirical": 1015.3120011009679,
-        "upper95_empirical": 1071.5962340509946,
-        "calibration_n": 220,
-        "baseline": 1042.4
+        "point": 1044.6601400066938,
+        "lower95_empirical": 1017.4238848644247,
+        "upper95_empirical": 1073.7972248188314,
+        "calibration_n": 221,
+        "baseline": 1044.6
       }
     },
     {
       "ticker": "FIXR",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 0.4761,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 0.485,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 0.485,
@@ -931,21 +931,21 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 0.4773131710059839,
-        "lower95_empirical": 0.45970383392536607,
-        "upper95_empirical": 0.5000983192737781,
-        "calibration_n": 220,
-        "baseline": 0.4761
+        "point": 0.48627995389122664,
+        "lower95_empirical": 0.4683400315368258,
+        "upper95_empirical": 0.509360865001589,
+        "calibration_n": 221,
+        "baseline": 0.485
       }
     },
     {
       "ticker": "ENPG",
-      "daily_as_of": "2026-11-03",
-      "daily_close": 317.8,
+      "daily_as_of": "2026-11-04",
+      "daily_close": 320.85,
       "data_status": "ok",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-04 18:00:00",
         "end_msk": "2026-11-04 18:59:59",
         "close": 320.85,
@@ -956,11 +956,11 @@
       },
       "research_forecast1": {
         "horizon": 1,
-        "point": 318.0483179546181,
-        "lower95_empirical": 302.2624971529523,
-        "upper95_empirical": 335.8289205943111,
-        "calibration_n": 220,
-        "baseline": 317.8
+        "point": 321.13769635469777,
+        "lower95_empirical": 305.23244748665763,
+        "upper95_empirical": 339.03603267934653,
+        "calibration_n": 221,
+        "baseline": 320.85
       }
     }
   ]
