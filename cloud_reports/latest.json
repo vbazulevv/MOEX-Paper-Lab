@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "model_version": "shrink-drift20-v1",
-  "generated_at_msk": "2026-11-14T03:21:47.910929+03:00",
-  "snapshot_cutoff_msk": "2026-11-14T03:21:13.569598+03:00",
+  "generated_at_msk": "2026-11-16T14:26:46.265324+03:00",
+  "snapshot_cutoff_msk": "2026-11-16T14:26:11.203823+03:00",
   "requested_tickers": 38,
   "daily_rows": 11197,
   "research": [
@@ -142,14 +142,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:49:08",
-        "close": 54.08,
-        "hour_return_pct": 0.07401924500369805,
-        "same_hour_volume_ratio": 0.5827293435493891,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:03",
+        "close": 52.78,
+        "hour_return_pct": 0.15180265654648473,
+        "same_hour_volume_ratio": 2.332948358356707,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -290,14 +290,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 3787.5,
-        "hour_return_pct": -0.0923239250857244,
-        "same_hour_volume_ratio": 0.7075944536318535,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 3655.5,
+        "hour_return_pct": -0.8812364425162644,
+        "same_hour_volume_ratio": 4.122891663148584,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -438,14 +438,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 3437.5,
-        "hour_return_pct": -0.029082448742179245,
-        "same_hour_volume_ratio": 0.6941501472329316,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 3399.0,
+        "hour_return_pct": 0.044150110375285045,
+        "same_hour_volume_ratio": 4.071419564145774,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -586,14 +586,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 218.85,
-        "hour_return_pct": 0.11436413540713009,
-        "same_hour_volume_ratio": 0.4915633173036362,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 217.5,
+        "hour_return_pct": 0.022993791676251263,
+        "same_hour_volume_ratio": 0.4942082484725051,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -734,14 +734,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 1254.0,
-        "hour_return_pct": 0.03190810465858451,
-        "same_hour_volume_ratio": 1.0413110276544897,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 1283.8,
+        "hour_return_pct": 0.20293474867312256,
+        "same_hour_volume_ratio": 0.7462121649222816,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -882,14 +882,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 236.95,
-        "hour_return_pct": 0.14792899408284654,
-        "same_hour_volume_ratio": 0.29753215064014366,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 228.7,
+        "hour_return_pct": 0.660211267605626,
+        "same_hour_volume_ratio": 0.4673528307301743,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1030,14 +1030,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 2721.0,
-        "hour_return_pct": -0.03673769287289019,
-        "same_hour_volume_ratio": 0.8341559723593287,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 2688.0,
+        "hour_return_pct": -0.037188545927857586,
+        "same_hour_volume_ratio": 1.837507359268149,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1178,14 +1178,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:43:03",
-        "close": 1240.5,
-        "hour_return_pct": 0.040322580645169026,
-        "same_hour_volume_ratio": 0.1293842556508184,
+        "status": "price_volume_watch",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 1233.5,
+        "hour_return_pct": 2.237878159966855,
+        "same_hour_volume_ratio": 8.032979976442874,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1326,14 +1326,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 299.83,
-        "hour_return_pct": -0.013339113615906673,
-        "same_hour_volume_ratio": 0.8673105651049328,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 295.17,
+        "hour_return_pct": 0.08816249025125344,
+        "same_hour_volume_ratio": 2.4913737146745336,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1474,14 +1474,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 293.68,
-        "hour_return_pct": 0.047693670368609276,
-        "same_hour_volume_ratio": 1.2954201656412987,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 285.86,
+        "hour_return_pct": -0.23731416207161127,
+        "same_hour_volume_ratio": 1.492189894437015,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1622,14 +1622,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 1129.0,
-        "hour_return_pct": -0.3090507726269287,
-        "same_hour_volume_ratio": 1.2037156495936008,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 1114.0,
+        "hour_return_pct": 0.5778259299386246,
+        "same_hour_volume_ratio": 1.2759066960730259,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1770,14 +1770,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 117.0,
-        "hour_return_pct": -0.06832934745473196,
-        "same_hour_volume_ratio": 0.5639122315592904,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 115.02,
+        "hour_return_pct": 0.2440299808262214,
+        "same_hour_volume_ratio": 0.6018955257773655,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -1918,14 +1918,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 6045.5,
-        "hour_return_pct": -0.03307151715584711,
-        "same_hour_volume_ratio": 1.0793028710548975,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 5985.0,
+        "hour_return_pct": 0.36894180781485986,
+        "same_hour_volume_ratio": 0.5149194858230081,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2066,14 +2066,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 356.65,
-        "hour_return_pct": -0.19588638589619345,
-        "same_hour_volume_ratio": 0.6402249462909136,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 352.15,
+        "hour_return_pct": 0.2562277580071104,
+        "same_hour_volume_ratio": 0.8370617915730069,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2214,14 +2214,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 604.8,
-        "hour_return_pct": 0.03307972213031363,
-        "same_hour_volume_ratio": 0.5772338253274009,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 588.8,
+        "hour_return_pct": 0.25540609569214556,
+        "same_hour_volume_ratio": 0.2999107046217123,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2362,14 +2362,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 120.6,
-        "hour_return_pct": -0.04972650422675473,
-        "same_hour_volume_ratio": 0.6437677448087736,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 117.98,
+        "hour_return_pct": 0.033915550279806084,
+        "same_hour_volume_ratio": 2.0234801465639722,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2510,14 +2510,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 76.26,
-        "hour_return_pct": -0.36582179252678815,
-        "same_hour_volume_ratio": 1.052282419838888,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 74.74,
+        "hour_return_pct": -0.10692328254476857,
+        "same_hour_volume_ratio": 0.8863281656435334,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2658,14 +2658,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 709.0,
-        "hour_return_pct": -0.22516183506895437,
-        "same_hour_volume_ratio": 0.6371804115135046,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 698.0,
+        "hour_return_pct": 0.4605641911341385,
+        "same_hour_volume_ratio": 1.0959435288977486,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2806,14 +2806,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 22.87,
-        "hour_return_pct": -0.087374399300999,
-        "same_hour_volume_ratio": 1.281387378263135,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 22.505,
+        "hour_return_pct": 0.24498886414254795,
+        "same_hour_volume_ratio": 1.227670307220869,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -2954,14 +2954,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 1107.0,
-        "hour_return_pct": 0.018070112034695995,
-        "same_hour_volume_ratio": 0.5407219833932042,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 1074.6,
+        "hour_return_pct": 0.11179429849075273,
+        "same_hour_volume_ratio": 3.6025482892674687,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3102,14 +3102,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 23.28,
-        "hour_return_pct": -0.04293688278229624,
-        "same_hour_volume_ratio": 0.5967030606602105,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 22.95,
+        "hour_return_pct": 0.5696757230499561,
+        "same_hour_volume_ratio": 0.35043456306444815,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3250,14 +3250,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 24.925,
-        "hour_return_pct": -0.16022431403964754,
-        "same_hour_volume_ratio": 1.2596020268446986,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 24.32,
+        "hour_return_pct": 0.20601565718993964,
+        "same_hour_volume_ratio": 0.6961513769217773,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3398,14 +3398,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 45.34,
-        "hour_return_pct": -0.022050716648291946,
-        "same_hour_volume_ratio": 0.452902165458748,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 44.38,
+        "hour_return_pct": -0.35922766052984834,
+        "same_hour_volume_ratio": 0.9275397064598917,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3546,14 +3546,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 81.08,
-        "hour_return_pct": 0.02467308166789195,
-        "same_hour_volume_ratio": 0.44369571728062296,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 80.69,
+        "hour_return_pct": -0.16085127443701275,
+        "same_hour_volume_ratio": 1.2910710789112982,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3694,14 +3694,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 10.85,
-        "hour_return_pct": 0.23094688221709792,
-        "same_hour_volume_ratio": 4.458736774607246,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 10.875,
+        "hour_return_pct": -0.6395614435815489,
+        "same_hour_volume_ratio": 5.718101086568113,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3842,14 +3842,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 0.3755,
-        "hour_return_pct": -1.3140604467805517,
-        "same_hour_volume_ratio": 4.419641302455163,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 0.3585,
+        "hour_return_pct": -1.375515818431916,
+        "same_hour_volume_ratio": 2.8196515907650905,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -3990,14 +3990,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 257.06,
-        "hour_return_pct": 0.019454495934012606,
-        "same_hour_volume_ratio": 0.7521489971346705,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 253.5,
+        "hour_return_pct": 0.2095110092105834,
+        "same_hour_volume_ratio": 0.8577794281470479,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4138,14 +4138,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 167.4,
-        "hour_return_pct": 0.06575407974176439,
-        "same_hour_volume_ratio": 1.3515650209745078,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 164.69,
+        "hour_return_pct": 0.2312701600633016,
+        "same_hour_volume_ratio": 1.0141106819056722,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4286,14 +4286,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 2.8975,
-        "hour_return_pct": 0.034524426031423694,
-        "same_hour_volume_ratio": 1.130596217983472,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 2.847,
+        "hour_return_pct": 0.7787610619468976,
+        "same_hour_volume_ratio": 1.0871800520019983,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4434,14 +4434,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 0.5484,
-        "hour_return_pct": 0.018238190771469043,
-        "same_hour_volume_ratio": 0.9163223140495868,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 0.5337,
+        "hour_return_pct": -0.29889781430973983,
+        "same_hour_volume_ratio": 0.6286649281587156,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4582,14 +4582,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:49:08",
-        "close": 17.735,
-        "hour_return_pct": -0.14076576576578237,
-        "same_hour_volume_ratio": 0.8392458225359664,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 17.37,
+        "hour_return_pct": 0.46269519953732186,
+        "same_hour_volume_ratio": 0.9258522936455342,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4730,14 +4730,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 42.91,
-        "hour_return_pct": -0.2209045459830361,
-        "same_hour_volume_ratio": 0.8396159676604346,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 42.695,
+        "hour_return_pct": 0.1877273260588952,
+        "same_hour_volume_ratio": 0.9550727037213786,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -4878,14 +4878,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 39.2,
-        "hour_return_pct": 0.0,
-        "same_hour_volume_ratio": 0.3762888908813772,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 38.64,
+        "hour_return_pct": 0.31152647975076775,
+        "same_hour_volume_ratio": 0.5163371917623335,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5026,14 +5026,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 184.05,
-        "hour_return_pct": -0.32493907392363575,
-        "same_hour_volume_ratio": 1.4309973045822102,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 182.15,
+        "hour_return_pct": 0.2476609796367768,
+        "same_hour_volume_ratio": 1.0811198851399857,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5174,14 +5174,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 5285.0,
-        "hour_return_pct": -0.0945179584120992,
-        "same_hour_volume_ratio": 1.387594870452761,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 5249.0,
+        "hour_return_pct": -0.1331811263318161,
+        "same_hour_volume_ratio": 1.9929430819065248,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5322,14 +5322,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 1079.6,
-        "hour_return_pct": -0.03703703703704653,
-        "same_hour_volume_ratio": 0.8388181221273802,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 1072.0,
+        "hour_return_pct": 0.3369524522650602,
+        "same_hour_volume_ratio": 0.8694916687811892,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5470,14 +5470,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 0.6633,
-        "hour_return_pct": 0.6219660194174637,
-        "same_hour_volume_ratio": 18.75256996379588,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 0.652,
+        "hour_return_pct": 0.07674597083653367,
+        "same_hour_volume_ratio": 1.4052476780185759,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5618,14 +5618,14 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 1,
+      "data_age_calendar_days": 3,
       "intraday": {
-        "status": "stale",
-        "begin_msk": "2026-11-13 23:00:00",
-        "end_msk": "2026-11-13 23:59:58",
-        "close": 346.8,
-        "hour_return_pct": 1.0195164579085425,
-        "same_hour_volume_ratio": 10.808774193548388,
+        "status": "no_confirmation",
+        "begin_msk": "2026-11-16 13:00:00",
+        "end_msk": "2026-11-16 13:59:59",
+        "close": 335.7,
+        "hour_return_pct": 0.5089820359281294,
+        "same_hour_volume_ratio": 0.9374586220594077,
         "comparison_n": 10,
         "note": "Completed delayed hour; watchlist filter only; no news/catalyst validation or trade execution"
       }
@@ -5637,16 +5637,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "AFLT",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5655,16 +5655,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ALRS/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ALRS/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "ALRS",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ALRS/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ALRS/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5673,16 +5673,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ASTR/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ASTR/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "ASTR",
       "status": "ok",
-      "rows": 351,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ASTR/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 359,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ASTR/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5691,16 +5691,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/BSPB/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/BSPB/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "BSPB",
       "status": "ok",
-      "rows": 349,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/BSPB/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 357,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/BSPB/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5709,16 +5709,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/CHMF/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/CHMF/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "CHMF",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/CHMF/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/CHMF/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5727,16 +5727,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/DIAS/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/DIAS/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "DIAS",
       "status": "ok",
-      "rows": 344,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/DIAS/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 352,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/DIAS/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5745,16 +5745,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ENPG/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ENPG/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "ENPG",
       "status": "ok",
-      "rows": 348,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ENPG/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 356,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ENPG/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5763,16 +5763,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FIXR/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FIXR/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "FIXR",
       "status": "ok",
-      "rows": 350,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FIXR/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 358,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FIXR/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5781,16 +5781,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FLOT/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FLOT/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "FLOT",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FLOT/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FLOT/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5799,16 +5799,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "GAZP",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5817,16 +5817,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "GMKN",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5835,16 +5835,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HEAD/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HEAD/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "HEAD",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HEAD/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 359,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HEAD/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5853,16 +5853,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HYDR/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HYDR/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "HYDR",
       "status": "ok",
-      "rows": 351,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HYDR/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 359,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HYDR/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5871,7 +5871,7 @@
       "status": "ok",
       "rows": 285,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "SNDX",
       "interval": 24
     },
@@ -5880,16 +5880,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "IRAO",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5898,16 +5898,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LKOH/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LKOH/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "LKOH",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LKOH/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LKOH/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5916,16 +5916,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "MAGN",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5934,16 +5934,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MGKL/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MGKL/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "MGKL",
       "status": "ok",
-      "rows": 346,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MGKL/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 354,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MGKL/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5952,16 +5952,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MOEX/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MOEX/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "MOEX",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MOEX/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MOEX/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5970,16 +5970,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTLR/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTLR/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "MTLR",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTLR/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTLR/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -5988,16 +5988,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "MTSS",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6006,16 +6006,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "NLMK",
       "status": "ok",
-      "rows": 351,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 359,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6024,16 +6024,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NVTK/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NVTK/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "NVTK",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NVTK/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NVTK/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6042,16 +6042,16 @@
       "status": "ok",
       "rows": 260,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/OZON/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/OZON/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "OZON",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/OZON/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/OZON/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6060,16 +6060,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PHOR/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PHOR/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "PHOR",
       "status": "ok",
-      "rows": 351,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PHOR/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 359,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PHOR/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6078,16 +6078,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PLZL/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PLZL/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "PLZL",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PLZL/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PLZL/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6096,16 +6096,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/POSI/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/POSI/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "POSI",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/POSI/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/POSI/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6114,16 +6114,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "ROSN",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6132,16 +6132,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/RUAL/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/RUAL/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "RUAL",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/RUAL/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/RUAL/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6150,16 +6150,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "SBER",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6168,16 +6168,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGS/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGS/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "SNGS",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGS/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGS/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6186,16 +6186,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "SNGSP",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6204,16 +6204,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SOFL/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SOFL/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "SOFL",
       "status": "ok",
-      "rows": 346,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SOFL/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 354,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SOFL/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6222,16 +6222,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SVCB/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SVCB/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "SVCB",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SVCB/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SVCB/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6240,16 +6240,16 @@
       "status": "ok",
       "rows": 284,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/T/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/T/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "T",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/T/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/T/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6258,16 +6258,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "TATN",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6276,16 +6276,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TRNFP/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TRNFP/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "TRNFP",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TRNFP/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TRNFP/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6294,16 +6294,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/VKCO/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/VKCO/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "VKCO",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/VKCO/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/VKCO/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     },
@@ -6312,16 +6312,16 @@
       "status": "ok",
       "rows": 288,
       "last": "2026-11-13 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/YDEX/candles.json?from=2025-10-01&till=2026-11-13&interval=24&start=0&iss.meta=off&iss.only=candles",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/YDEX/candles.json?from=2025-10-01&till=2026-11-15&interval=24&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 24
     },
     {
       "ticker": "YDEX",
       "status": "ok",
-      "rows": 352,
-      "last": "2026-11-13 23:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/YDEX/candles.json?from=2026-10-17&till=2026-11-14&interval=60&start=0&iss.meta=off&iss.only=candles",
+      "rows": 360,
+      "last": "2026-11-16 13:00:00",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/YDEX/candles.json?from=2026-10-19&till=2026-11-16&interval=60&start=0&iss.meta=off&iss.only=candles",
       "board": "TQBR",
       "interval": 60
     }
