@@ -12,6 +12,7 @@ import json
 import math
 import os
 import statistics
+import ssl
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, time as clock_time, timedelta, timezone
@@ -31,7 +32,9 @@ def get_json(url: str, attempts: int = 3) -> dict:
             request = Request(url, headers={"User-Agent": "MOEX-Paper-Lab/2.0 research", "Accept": "application/json"})
             with urlopen(request, timeout=20) as response:
                 return json.load(response)
-        except (OSError, ValueError):
+        except (OSError, ValueError) as exc:
+            if isinstance(getattr(exc, 'reason', None), ssl.SSLCertVerificationError):
+                raise
             if attempt + 1 == attempts:
                 raise
             time.sleep(2 ** attempt)
@@ -479,7 +482,7 @@ def run_pipeline(config: dict, root: Path, output: Path, now: datetime | None = 
     # Actual completion time, not request-start time: a delayed run must not
     # claim that a forecast calculated after the cutoff was issued beforehand.
     issued_now = datetime.now(MSK)
-    new_forecasts = [] if offline or simulated_clock else register_forecasts([r for r in research if (r["ticker"], 24) not in cached], forecasts, issued_now)
+    new_forecasts = [] if offline or simulated_clock else register_forecasts([r for r in research if (r["ticker"], 24) not in cached and ("IMOEX", 24) not in cached], forecasts, issued_now)
     append_jsonl(state / "forecasts.jsonl", new_forecasts)
     outcomes = outcomes + new_outcomes
     report = {"schema_version": 1, "model_version": VERSION, "generated_at_msk": issued_now.isoformat(),
@@ -506,5 +509,10 @@ def run_pipeline(config: dict, root: Path, output: Path, now: datetime | None = 
     atomic_json(output / "forward_ledger.json", {"forecasts": forecasts + new_forecasts, "outcomes": outcomes})
     markdown = render_report(report)
     (output / "latest.md").write_text(markdown, encoding="utf-8")
-    (output / "index.html").write_text(render_html(report), encoding="utf-8")
+    page = render_html(report)
+    if offline or any(s["status"] != "ok" for s in sources):
+        banner = '<div role="status" style="padding:16px;background:#fff3cd;color:#533f03;font:16px sans-serif">Historical / cached research. Some market sources are unavailable. Prices are not live; check individual observation dates.</div>'
+        import re
+        page = re.sub(r"(<body[^>]*>)", lambda m: m.group(1) + banner, page, count=1)
+    (output / "index.html").write_text(page, encoding="utf-8")
     return report
