@@ -28,13 +28,13 @@ CANDLE_FIELDS = ["ticker", "date", "begin", "end", "open", "high", "low", "close
 def get_json(url: str, attempts: int = 3) -> dict:
     for attempt in range(attempts):
         try:
-            request = Request(url, headers={"User-Agent": "MOEX-Paper-Lab/2.0 research"})
+            request = Request(url, headers={"User-Agent": "MOEX-Paper-Lab/2.0 research", "Accept": "application/json"})
             with urlopen(request, timeout=20) as response:
                 return json.load(response)
         except (OSError, ValueError):
             if attempt + 1 == attempts:
                 raise
-            time.sleep(0.5 * (attempt + 1))
+            time.sleep(2 ** attempt)
     raise RuntimeError("No response")
 
 
@@ -433,6 +433,8 @@ def run_pipeline(config: dict, root: Path, output: Path, now: datetime | None = 
             status["interval"] = interval
             sources.append(status)
             print(f"{ticker:6s} interval={interval:<2} {status['status']:5s} rows={status.get('rows', 0)}", flush=True)
+            if status["status"] != "ok":
+                print(f"MOEX source diagnostic: {status.get('error', 'empty response')}", flush=True)
     if not offline:
         atomic_json(data_dir / "source_status.json", sorted(sources, key=lambda s: (s["ticker"], s["interval"])))
     research = []
