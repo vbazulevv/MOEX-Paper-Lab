@@ -1,12 +1,14 @@
 # MOEX Paper Lab 📈
 
-## Cloud research extension
+## Resilient market research extension
 
 The coursework console application remains available. The separate MOEX research pipeline downloads actual candles, checks forecasts on history and keeps an append-only forward ledger. It does not trade or import the sample portfolio. See [setup and methods](docs/CLOUD_SETUP_RU.md).
 
 - [Latest cloud report](https://github.com/vbazulevv/MOEX-Paper-Lab/blob/moex-data/cloud_reports/latest.md)
 - [Report for mobile and public data](https://vbazulevv.github.io/MOEX-Paper-Lab/)
 - [Run status and manual start](https://github.com/vbazulevv/MOEX-Paper-Lab/actions/workflows/market-cloud.yml)
+
+If MOEX is unavailable, the pipeline uses validated saved candles where available, marks them `cached_daily_data` and suppresses stale intraday signals and new forward forecasts for affected instruments. Cached data is not live pricing. The offline coursework application does not require any network access.
 
 Scheduled updates: weekdays, every two hours from 06:17 to 22:17 Moscow time. Only pre-session runs can register new forward forecasts. Historical accuracy and live validation are reported separately.
 
