@@ -2,6 +2,13 @@ name: MOEX cloud research
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'moex_paper_lab/cloud.py'
+      - 'cloud_runner.py'
+      - 'cloud_config.json'
+      - '.github/workflows/market-cloud.yml'
   schedule:
     # UTC: 06:17, 08:17, ... 22:17 Moscow time. First run is before session.
     - cron: '17 3-19/2 * * 1-5'
