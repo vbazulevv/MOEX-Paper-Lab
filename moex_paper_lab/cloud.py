@@ -417,7 +417,25 @@ def run_pipeline(config: dict, root: Path, output: Path, now: datetime | None = 
                           "cached_file_modified_at_msk": datetime.fromtimestamp(path.stat().st_mtime, MSK).isoformat(),
                           "last": rows[-1]["begin"] if rows else None,
                           "board": "SNDX" if ticker == "IMOEX" else "TQBR"}
-        return fetch_candles(ticker, start, end, interval, now)
+        try:
+            rows, status = fetch_candles(ticker, start, end, interval, now)
+            if rows:
+                return rows, status
+            raise ValueError("Empty MOEX response")
+        except Exception as exc:
+            path = data_dir / f"{ticker}_{interval}.csv"
+            if not path.exists():
+                raise
+            with path.open(encoding="utf-8", newline="") as stream:
+                rows = list(csv.DictReader(stream))
+            for row in rows:
+                for key in ("open", "high", "low", "close", "volume", "value"):
+                    row[key] = float(row[key])
+                validate_candle(row)
+            rows = [r for r in rows if (r["date"] < now.date().isoformat() if interval == 24 else datetime.fromisoformat(r["end"]).replace(tzinfo=MSK) < now - timedelta(minutes=15))]
+            if not rows:
+                raise ValueError("No usable cached candles") from exc
+            return rows, {"ticker": ticker, "status": "cached", "rows": len(rows), "last": rows[-1]["begin"], "error": f"{type(exc).__name__}: {exc}"[:250]}
     with ThreadPoolExecutor(max_workers=config.get("workers", 4)) as pool:
         futures = {pool.submit(obtain, ticker, interval): (ticker, interval) for ticker, interval in requests}
         for future in as_completed(futures):
@@ -426,7 +444,7 @@ def run_pipeline(config: dict, root: Path, output: Path, now: datetime | None = 
                 rows, status = future.result()
                 if rows:
                     (daily if interval == 24 else hourly)[ticker] = rows
-                    if not offline:
+                    if not offline and status["status"] == "ok":
                         write_candles(data_dir / f"{ticker}_{interval}.csv", rows)
             except Exception as exc:
                 status = {"ticker": ticker, "status": "error", "error": f"{type(exc).__name__}: {exc}"[:250]}
@@ -437,6 +455,7 @@ def run_pipeline(config: dict, root: Path, output: Path, now: datetime | None = 
                 print(f"MOEX source diagnostic: {status.get('error', 'empty response')}", flush=True)
     if not offline:
         atomic_json(data_dir / "source_status.json", sorted(sources, key=lambda s: (s["ticker"], s["interval"])))
+    cached = {(s["ticker"], s["interval"]) for s in sources if s["status"] == "cached"}
     research = []
     for ticker in tickers:
         if ticker not in daily:
@@ -445,18 +464,22 @@ def run_pipeline(config: dict, root: Path, output: Path, now: datetime | None = 
         item["data_age_calendar_days"] = (now.date() - date.fromisoformat(item["as_of"])).days
         if item["data_age_calendar_days"] > 4:
             item["status"] = "stale_daily_data"
+        if (ticker, 24) in cached:
+            item["status"] = "cached_daily_data"
         if config.get("intraday"):
             item["intraday"] = scan_hourly(hourly.get(ticker, []), item, now)
+            if (ticker, 60) in cached or (ticker, 24) in cached or ("IMOEX", 24) in cached:
+                item["intraday"]["status"] = "stale"
         research.append(item)
     forecasts = read_jsonl(state / "forecasts.jsonl")
     outcomes = read_jsonl(state / "outcomes.jsonl")
-    new_outcomes = settle_forecasts(forecasts, outcomes, daily)
+    new_outcomes = settle_forecasts(forecasts, outcomes, {t: rows for t, rows in daily.items() if (t, 24) not in cached})
     if not offline and not simulated_clock:
         append_jsonl(state / "outcomes.jsonl", new_outcomes)
     # Actual completion time, not request-start time: a delayed run must not
     # claim that a forecast calculated after the cutoff was issued beforehand.
     issued_now = datetime.now(MSK)
-    new_forecasts = [] if offline or simulated_clock else register_forecasts(research, forecasts, issued_now)
+    new_forecasts = [] if offline or simulated_clock else register_forecasts([r for r in research if (r["ticker"], 24) not in cached], forecasts, issued_now)
     append_jsonl(state / "forecasts.jsonl", new_forecasts)
     outcomes = outcomes + new_outcomes
     report = {"schema_version": 1, "model_version": VERSION, "generated_at_msk": issued_now.isoformat(),
@@ -471,6 +494,7 @@ def run_pipeline(config: dict, root: Path, output: Path, now: datetime | None = 
         "schema_version", "model_version", "generated_at_msk", "snapshot_cutoff_msk",
         "requested_tickers", "daily_rows", "all_failed", "offline",
         "new_forward_forecasts", "forward_forecasts_total", "settled_forward_forecasts")}
+    summary["service_status"] = "offline" if offline else ("degraded" if any(s["status"] != "ok" for s in sources) else "ok")
     summary["source"] = "MOEX ISS: shares TQBR, index IMOEX SNDX"
     summary["source_errors"] = [s for s in report["sources"] if s["status"] != "ok"]
     summary["stocks"] = [{"ticker": r["ticker"], "daily_as_of": r["as_of"], "daily_close": r["close"],
