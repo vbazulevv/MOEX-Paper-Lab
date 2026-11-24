@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "model_version": "shrink-drift20-v1",
-  "generated_at_msk": "2026-11-23T15:52:20.365819+03:00",
-  "snapshot_cutoff_msk": "2026-11-23T15:51:41.793364+03:00",
+  "generated_at_msk": "2026-11-24T17:49:23.454329+03:00",
+  "snapshot_cutoff_msk": "2026-11-24T17:47:45.742675+03:00",
   "requested_tickers": 38,
   "daily_rows": 11392,
   "research": [
@@ -17,7 +17,7 @@
       "relative_strength20_pp": -4.5587429548513025,
       "atr14_rub": 2.785714285714285,
       "rsi14_simple": 26.606683804627295,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -142,9 +142,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 47.28,
@@ -165,7 +165,7 @@
       "relative_strength20_pp": 2.6386983013795833,
       "atr14_rub": 115.07142857142857,
       "rsi14_simple": 32.82275711159737,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -290,9 +290,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "price_volume_watch",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 3610.0,
@@ -313,7 +313,7 @@
       "relative_strength20_pp": 1.0525161080079841,
       "atr14_rub": 66.5,
       "rsi14_simple": 21.880341880341874,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -438,9 +438,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 3291.0,
@@ -461,7 +461,7 @@
       "relative_strength20_pp": -2.1137028807348353,
       "atr14_rub": 8.496428571428575,
       "rsi14_simple": 34.487534626038794,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -586,9 +586,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 205.15,
@@ -609,7 +609,7 @@
       "relative_strength20_pp": 11.334587128122354,
       "atr14_rub": 67.25714285714282,
       "rsi14_simple": 56.9683509161577,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -734,9 +734,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 1302.0,
@@ -757,7 +757,7 @@
       "relative_strength20_pp": 56.6107645470484,
       "atr14_rub": 18.22857142857143,
       "rsi14_simple": 45.90400577408877,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -882,9 +882,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 212.0,
@@ -905,7 +905,7 @@
       "relative_strength20_pp": 1.7330144219832593,
       "atr14_rub": 61.357142857142854,
       "rsi14_simple": 38.36930455635492,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -1030,9 +1030,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 2612.0,
@@ -1053,7 +1053,7 @@
       "relative_strength20_pp": 3.8568023874630213,
       "atr14_rub": 40.67857142857143,
       "rsi14_simple": 38.775510204081634,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -1178,9 +1178,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 1200.0,
@@ -1201,7 +1201,7 @@
       "relative_strength20_pp": 3.0886811487369275,
       "atr14_rub": 4.852142857142858,
       "rsi14_simple": 45.408163265306115,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -1326,9 +1326,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 290.28,
@@ -1349,7 +1349,7 @@
       "relative_strength20_pp": 8.059744164253091,
       "atr14_rub": 7.511428571428573,
       "rsi14_simple": 56.062424969988,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -1474,9 +1474,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 280.74,
@@ -1497,7 +1497,7 @@
       "relative_strength20_pp": -8.527822458286705,
       "atr14_rub": 33.17857142857143,
       "rsi14_simple": 24.362745098039298,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -1622,9 +1622,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 1020.5,
@@ -1645,7 +1645,7 @@
       "relative_strength20_pp": -1.0438891207501957,
       "atr14_rub": 3.8321428571428564,
       "rsi14_simple": 37.456913060130205,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -1770,9 +1770,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 106.83,
@@ -1793,7 +1793,7 @@
       "relative_strength20_pp": -1.2929518619125053,
       "atr14_rub": 130.07142857142858,
       "rsi14_simple": 30.714707619610152,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -1918,9 +1918,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 5777.5,
@@ -1941,7 +1941,7 @@
       "relative_strength20_pp": -10.240068930109313,
       "atr14_rub": 10.699999999999992,
       "rsi14_simple": 19.579405366207396,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -2066,9 +2066,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 329.9,
@@ -2089,7 +2089,7 @@
       "relative_strength20_pp": -6.7455547332317405,
       "atr14_rub": 19.95714285714285,
       "rsi14_simple": 26.053042121684825,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -2214,9 +2214,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 554.6,
@@ -2237,7 +2237,7 @@
       "relative_strength20_pp": -0.6113843603158244,
       "atr14_rub": 3.6457142857142872,
       "rsi14_simple": 40.84709260588657,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -2362,9 +2362,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 109.86,
@@ -2385,7 +2385,7 @@
       "relative_strength20_pp": -4.502051873030588,
       "atr14_rub": 2.4171428571428564,
       "rsi14_simple": 36.1803084223013,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -2510,9 +2510,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 68.84,
@@ -2533,7 +2533,7 @@
       "relative_strength20_pp": -6.318441115745964,
       "atr14_rub": 21.071428571428562,
       "rsi14_simple": 34.15340086830675,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -2658,9 +2658,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 631.6,
@@ -2681,7 +2681,7 @@
       "relative_strength20_pp": -4.385172368786693,
       "atr14_rub": 0.6771428571428574,
       "rsi14_simple": 43.894389438943904,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -2806,9 +2806,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 21.305,
@@ -2829,7 +2829,7 @@
       "relative_strength20_pp": -4.923854316322739,
       "atr14_rub": 41.32857142857141,
       "rsi14_simple": 40.039447731755466,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -2954,9 +2954,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 1039.0,
@@ -2977,7 +2977,7 @@
       "relative_strength20_pp": 8.926933316751928,
       "atr14_rub": 1.2442857142857144,
       "rsi14_simple": 59.8173515981735,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -3102,9 +3102,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 22.29,
@@ -3125,7 +3125,7 @@
       "relative_strength20_pp": -7.933616349725714,
       "atr14_rub": 0.8385714285714292,
       "rsi14_simple": 35.07588532883639,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -3250,9 +3250,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 22.295,
@@ -3273,7 +3273,7 @@
       "relative_strength20_pp": -3.4116172679800822,
       "atr14_rub": 1.7450000000000006,
       "rsi14_simple": 25.564681724846054,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -3398,9 +3398,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 41.24,
@@ -3421,7 +3421,7 @@
       "relative_strength20_pp": -7.168639641704965,
       "atr14_rub": 3.249285714285715,
       "rsi14_simple": 26.274944567627514,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -3546,9 +3546,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 79.48,
@@ -3569,7 +3569,7 @@
       "relative_strength20_pp": 9.449646146464053,
       "atr14_rub": 0.4003571428571429,
       "rsi14_simple": 55.018587360594786,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -3694,9 +3694,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 10.985,
@@ -3717,7 +3717,7 @@
       "relative_strength20_pp": -82.46028716887615,
       "atr14_rub": 0.08882142857142858,
       "rsi14_simple": 15.685019206145967,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -3842,9 +3842,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 0.256,
@@ -3865,7 +3865,7 @@
       "relative_strength20_pp": -1.1287344068237388,
       "atr14_rub": 5.175714285714291,
       "rsi14_simple": 32.04845814977972,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -3990,9 +3990,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:03",
         "close": 242.36,
@@ -4013,7 +4013,7 @@
       "relative_strength20_pp": 6.457606991629239,
       "atr14_rub": 4.051428571428575,
       "rsi14_simple": 40.87375046279156,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -4138,9 +4138,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 160.19,
@@ -4161,7 +4161,7 @@
       "relative_strength20_pp": -0.6432624879254103,
       "atr14_rub": 0.09974999999999998,
       "rsi14_simple": 46.5890183028286,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -4286,9 +4286,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 2.6715,
@@ -4309,7 +4309,7 @@
       "relative_strength20_pp": 23.646873593491435,
       "atr14_rub": 0.028742857142857136,
       "rsi14_simple": 71.98296261239942,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -4434,9 +4434,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 0.5448,
@@ -4457,7 +4457,7 @@
       "relative_strength20_pp": -0.9967166285649194,
       "atr14_rub": 0.5592857142857142,
       "rsi14_simple": 32.19645293315139,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -4582,9 +4582,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 16.07,
@@ -4605,7 +4605,7 @@
       "relative_strength20_pp": 4.9120868824255375,
       "atr14_rub": 0.9717857142857146,
       "rsi14_simple": 43.689320388349586,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -4730,9 +4730,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 41.135,
@@ -4753,7 +4753,7 @@
       "relative_strength20_pp": 4.154761874186497,
       "atr14_rub": 1.3342857142857152,
       "rsi14_simple": 44.752018454440616,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -4878,9 +4878,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 35.72,
@@ -4901,7 +4901,7 @@
       "relative_strength20_pp": 4.088724498986929,
       "atr14_rub": 3.6892857142857127,
       "rsi14_simple": 48.498845265588905,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -5026,9 +5026,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 173.55,
@@ -5049,7 +5049,7 @@
       "relative_strength20_pp": -7.909534050010169,
       "atr14_rub": 132.07142857142858,
       "rsi14_simple": 43.51464435146443,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -5174,9 +5174,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 5034.0,
@@ -5197,7 +5197,7 @@
       "relative_strength20_pp": 2.528598635880797,
       "atr14_rub": 19.814285714285706,
       "rsi14_simple": 47.804878048780445,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -5322,9 +5322,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 1046.6,
@@ -5345,7 +5345,7 @@
       "relative_strength20_pp": 52.38217146486687,
       "atr14_rub": 0.03292857142857144,
       "rsi14_simple": 72.5879484500174,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -5470,9 +5470,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 0.6304,
@@ -5493,7 +5493,7 @@
       "relative_strength20_pp": -2.1447290219955946,
       "atr14_rub": 12.392857142857142,
       "rsi14_simple": 38.86168910648712,
-      "status": "ok",
+      "status": "cached_daily_data",
       "forecasts": [
         {
           "horizon": 1,
@@ -5618,9 +5618,9 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 3,
+      "data_age_calendar_days": 4,
       "intraday": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:03",
         "close": 302.25,
@@ -5634,695 +5634,618 @@
   "sources": [
     {
       "ticker": "AFLT",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "AFLT",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "ALRS",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ALRS/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "ALRS",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ALRS/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "ASTR",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ASTR/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "ASTR",
-      "status": "ok",
+      "status": "cached",
       "rows": 359,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ASTR/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "BSPB",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/BSPB/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "BSPB",
-      "status": "ok",
+      "status": "cached",
       "rows": 356,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/BSPB/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "CHMF",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/CHMF/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "CHMF",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/CHMF/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "DIAS",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/DIAS/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "DIAS",
-      "status": "ok",
+      "status": "cached",
       "rows": 348,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/DIAS/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "ENPG",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ENPG/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "ENPG",
-      "status": "ok",
+      "status": "cached",
       "rows": 356,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ENPG/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "FIXR",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FIXR/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "FIXR",
-      "status": "ok",
+      "status": "cached",
       "rows": 360,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FIXR/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "FLOT",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FLOT/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "FLOT",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/FLOT/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "GAZP",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "GAZP",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "GMKN",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "GMKN",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "HEAD",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HEAD/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "HEAD",
-      "status": "ok",
+      "status": "cached",
       "rows": 359,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HEAD/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "HYDR",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HYDR/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "HYDR",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/HYDR/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "IMOEX",
-      "status": "ok",
+      "status": "cached",
       "rows": 290,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "SNDX",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "IRAO",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "IRAO",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "LKOH",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LKOH/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "LKOH",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LKOH/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "MAGN",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "MAGN",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "MGKL",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MGKL/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "MGKL",
-      "status": "ok",
+      "status": "cached",
       "rows": 360,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MGKL/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "MOEX",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MOEX/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "MOEX",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MOEX/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "MTLR",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTLR/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "MTLR",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTLR/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "MTSS",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "MTSS",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "NLMK",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "NLMK",
-      "status": "ok",
+      "status": "cached",
       "rows": 360,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "NVTK",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NVTK/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "NVTK",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/NVTK/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "OZON",
-      "status": "ok",
+      "status": "cached",
       "rows": 265,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/OZON/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "OZON",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/OZON/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "PHOR",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PHOR/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "PHOR",
-      "status": "ok",
+      "status": "cached",
       "rows": 358,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PHOR/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "PLZL",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PLZL/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "PLZL",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/PLZL/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "POSI",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/POSI/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "POSI",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/POSI/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "ROSN",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "ROSN",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "RUAL",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/RUAL/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "RUAL",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/RUAL/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "SBER",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "SBER",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "SNGS",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGS/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "SNGS",
-      "status": "ok",
+      "status": "cached",
       "rows": 360,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGS/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "SNGSP",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "SNGSP",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "SOFL",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SOFL/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "SOFL",
-      "status": "ok",
+      "status": "cached",
       "rows": 355,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SOFL/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "SVCB",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SVCB/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "SVCB",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/SVCB/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "T",
-      "status": "ok",
+      "status": "cached",
       "rows": 289,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/T/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "T",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/T/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "TATN",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "TATN",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "TRNFP",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TRNFP/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "TRNFP",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/TRNFP/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "VKCO",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/VKCO/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "VKCO",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/VKCO/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     },
     {
       "ticker": "YDEX",
-      "status": "ok",
+      "status": "cached",
       "rows": 293,
       "last": "2026-11-20 00:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/YDEX/candles.json?from=2025-10-01&till=2026-11-22&interval=24&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 24
     },
     {
       "ticker": "YDEX",
-      "status": "ok",
+      "status": "cached",
       "rows": 361,
       "last": "2026-11-23 14:00:00",
-      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/YDEX/candles.json?from=2026-10-26&till=2026-11-23&interval=60&start=0&iss.meta=off&iss.only=candles",
-      "board": "TQBR",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
       "interval": 60
     }
   ],

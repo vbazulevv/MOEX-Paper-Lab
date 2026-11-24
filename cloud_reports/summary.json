@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "model_version": "shrink-drift20-v1",
-  "generated_at_msk": "2026-11-23T15:52:20.365819+03:00",
-  "snapshot_cutoff_msk": "2026-11-23T15:51:41.793364+03:00",
+  "generated_at_msk": "2026-11-24T17:49:23.454329+03:00",
+  "snapshot_cutoff_msk": "2026-11-24T17:47:45.742675+03:00",
   "requested_tickers": 38,
   "daily_rows": 11392,
   "all_failed": false,
@@ -10,17 +10,635 @@
   "new_forward_forecasts": 0,
   "forward_forecasts_total": 1976,
   "settled_forward_forecasts": 1482,
+  "service_status": "degraded",
   "source": "MOEX ISS: shares TQBR, index IMOEX SNDX",
-  "source_errors": [],
+  "source_errors": [
+    {
+      "ticker": "AFLT",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "AFLT",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "ALRS",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "ALRS",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "ASTR",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "ASTR",
+      "status": "cached",
+      "rows": 359,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "BSPB",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "BSPB",
+      "status": "cached",
+      "rows": 356,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "CHMF",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "CHMF",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "DIAS",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "DIAS",
+      "status": "cached",
+      "rows": 348,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "ENPG",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "ENPG",
+      "status": "cached",
+      "rows": 356,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "FIXR",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "FIXR",
+      "status": "cached",
+      "rows": 360,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "FLOT",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "FLOT",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "GAZP",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "GAZP",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "GMKN",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "GMKN",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "HEAD",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "HEAD",
+      "status": "cached",
+      "rows": 359,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "HYDR",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "HYDR",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "IMOEX",
+      "status": "cached",
+      "rows": 290,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "IRAO",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "IRAO",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "LKOH",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "LKOH",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "MAGN",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "MAGN",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "MGKL",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "MGKL",
+      "status": "cached",
+      "rows": 360,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "MOEX",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "MOEX",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "MTLR",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "MTLR",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "MTSS",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "MTSS",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "NLMK",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "NLMK",
+      "status": "cached",
+      "rows": 360,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "NVTK",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "NVTK",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "OZON",
+      "status": "cached",
+      "rows": 265,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "OZON",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "PHOR",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "PHOR",
+      "status": "cached",
+      "rows": 358,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "PLZL",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "PLZL",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "POSI",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "POSI",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "ROSN",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "ROSN",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "RUAL",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "RUAL",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "SBER",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "SBER",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "SNGS",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "SNGS",
+      "status": "cached",
+      "rows": 360,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "SNGSP",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "SNGSP",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "SOFL",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "SOFL",
+      "status": "cached",
+      "rows": 355,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "SVCB",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "SVCB",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "T",
+      "status": "cached",
+      "rows": 289,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "T",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "TATN",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "TATN",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "TRNFP",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "TRNFP",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "VKCO",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "VKCO",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    },
+    {
+      "ticker": "YDEX",
+      "status": "cached",
+      "rows": 293,
+      "last": "2026-11-20 00:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 24
+    },
+    {
+      "ticker": "YDEX",
+      "status": "cached",
+      "rows": 361,
+      "last": "2026-11-23 14:00:00",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>",
+      "interval": 60
+    }
+  ],
   "stocks": [
     {
       "ticker": "SOFL",
       "daily_as_of": "2026-11-20",
       "daily_close": 45.52,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 47.28,
@@ -42,10 +660,10 @@
       "ticker": "OZON",
       "daily_as_of": "2026-11-20",
       "daily_close": 3449.5,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "price_volume_watch",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 3610.0,
@@ -67,10 +685,10 @@
       "ticker": "YDEX",
       "daily_as_of": "2026-11-20",
       "daily_close": 3277.5,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 3291.0,
@@ -92,10 +710,10 @@
       "ticker": "ASTR",
       "daily_as_of": "2026-11-20",
       "daily_close": 203.15,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 205.15,
@@ -117,10 +735,10 @@
       "ticker": "POSI",
       "daily_as_of": "2026-11-20",
       "daily_close": 1255.4,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 1302.0,
@@ -142,10 +760,10 @@
       "ticker": "VKCO",
       "daily_as_of": "2026-11-20",
       "daily_close": 204.0,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 212.0,
@@ -167,10 +785,10 @@
       "ticker": "HEAD",
       "daily_as_of": "2026-11-20",
       "daily_close": 2591.0,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 2612.0,
@@ -192,10 +810,10 @@
       "ticker": "DIAS",
       "daily_as_of": "2026-11-20",
       "daily_close": 1180.0,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 1200.0,
@@ -217,10 +835,10 @@
       "ticker": "SBER",
       "daily_as_of": "2026-11-20",
       "daily_close": 287.74,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 290.28,
@@ -242,10 +860,10 @@
       "ticker": "T",
       "daily_as_of": "2026-11-20",
       "daily_close": 278.84,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 280.74,
@@ -267,10 +885,10 @@
       "ticker": "NVTK",
       "daily_as_of": "2026-11-20",
       "daily_close": 1026.0,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 1020.5,
@@ -292,10 +910,10 @@
       "ticker": "GAZP",
       "daily_as_of": "2026-11-20",
       "daily_close": 108.21,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 106.83,
@@ -317,10 +935,10 @@
       "ticker": "LKOH",
       "daily_as_of": "2026-11-20",
       "daily_close": 5779.0,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 5777.5,
@@ -342,10 +960,10 @@
       "ticker": "ROSN",
       "daily_as_of": "2026-11-20",
       "daily_close": 331.95,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 329.9,
@@ -367,10 +985,10 @@
       "ticker": "TATN",
       "daily_as_of": "2026-11-20",
       "daily_close": 560.3,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 554.6,
@@ -392,10 +1010,10 @@
       "ticker": "GMKN",
       "daily_as_of": "2026-11-20",
       "daily_close": 108.28,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 109.86,
@@ -417,10 +1035,10 @@
       "ticker": "NLMK",
       "daily_as_of": "2026-11-20",
       "daily_close": 69.44,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 68.84,
@@ -442,10 +1060,10 @@
       "ticker": "CHMF",
       "daily_as_of": "2026-11-20",
       "daily_close": 634.4,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 631.6,
@@ -467,10 +1085,10 @@
       "ticker": "MAGN",
       "daily_as_of": "2026-11-20",
       "daily_close": 21.38,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 21.305,
@@ -492,10 +1110,10 @@
       "ticker": "PLZL",
       "daily_as_of": "2026-11-20",
       "daily_close": 993.0,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 1039.0,
@@ -517,10 +1135,10 @@
       "ticker": "ALRS",
       "daily_as_of": "2026-11-20",
       "daily_close": 21.97,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 22.29,
@@ -542,10 +1160,10 @@
       "ticker": "RUAL",
       "daily_as_of": "2026-11-20",
       "daily_close": 22.08,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 22.295,
@@ -567,10 +1185,10 @@
       "ticker": "MTLR",
       "daily_as_of": "2026-11-20",
       "daily_close": 40.57,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 41.24,
@@ -592,10 +1210,10 @@
       "ticker": "FLOT",
       "daily_as_of": "2026-11-20",
       "daily_close": 78.6,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 79.48,
@@ -617,10 +1235,10 @@
       "ticker": "SVCB",
       "daily_as_of": "2026-11-20",
       "daily_close": 10.82,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 10.985,
@@ -642,10 +1260,10 @@
       "ticker": "MGKL",
       "daily_as_of": "2026-11-20",
       "daily_close": 0.241,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 0.256,
@@ -667,10 +1285,10 @@
       "ticker": "BSPB",
       "daily_as_of": "2026-11-20",
       "daily_close": 242.21,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:03",
         "close": 242.36,
@@ -692,10 +1310,10 @@
       "ticker": "MOEX",
       "daily_as_of": "2026-11-20",
       "daily_close": 158.17,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 160.19,
@@ -717,10 +1335,10 @@
       "ticker": "IRAO",
       "daily_as_of": "2026-11-20",
       "daily_close": 2.663,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 2.6715,
@@ -742,10 +1360,10 @@
       "ticker": "HYDR",
       "daily_as_of": "2026-11-20",
       "daily_close": 0.5545,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 0.5448,
@@ -767,10 +1385,10 @@
       "ticker": "SNGS",
       "daily_as_of": "2026-11-20",
       "daily_close": 16.275,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 16.07,
@@ -792,10 +1410,10 @@
       "ticker": "SNGSP",
       "daily_as_of": "2026-11-20",
       "daily_close": 41.02,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 41.135,
@@ -817,10 +1435,10 @@
       "ticker": "AFLT",
       "daily_as_of": "2026-11-20",
       "daily_close": 35.77,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 35.72,
@@ -842,10 +1460,10 @@
       "ticker": "MTSS",
       "daily_as_of": "2026-11-20",
       "daily_close": 175.45,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 173.55,
@@ -867,10 +1485,10 @@
       "ticker": "PHOR",
       "daily_as_of": "2026-11-20",
       "daily_close": 5045.0,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 5034.0,
@@ -892,10 +1510,10 @@
       "ticker": "TRNFP",
       "daily_as_of": "2026-11-20",
       "daily_close": 1040.0,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 1046.6,
@@ -917,10 +1535,10 @@
       "ticker": "FIXR",
       "daily_as_of": "2026-11-20",
       "daily_close": 0.6011,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:59",
         "close": 0.6304,
@@ -942,10 +1560,10 @@
       "ticker": "ENPG",
       "daily_as_of": "2026-11-20",
       "daily_close": 300.15,
-      "data_status": "ok",
+      "data_status": "cached_daily_data",
       "liquid": true,
       "hourly": {
-        "status": "no_confirmation",
+        "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
         "end_msk": "2026-11-23 14:59:03",
         "close": 302.25,

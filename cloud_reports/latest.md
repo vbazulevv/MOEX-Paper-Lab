@@ -1,6 +1,6 @@
 # MOEX Paper Lab · облачная исследовательская версия
 
-Сформировано: 2026-11-23T15:52:20.365819+03:00. Данные: MOEX ISS, TQBR / IMOEX SNDX.
+Сформировано: 2026-11-24T17:49:23.454329+03:00. Данные: MOEX ISS, TQBR / IMOEX SNDX.
 
 Загружено акций: **38 / 38**. Дневных наблюдений с индексом: **11392**.
 Новых прогнозов, записанных ДО сессии: **0**. Проверено живых прогнозов: **1482**.
@@ -13,44 +13,44 @@
 
 | Акция | Конец часа, МСК | Цена часа, ₽ | За час | Объём / медиана | Статус |
 |---|---|---:|---:|---:|---|
-| OZON | 2026-11-23 14:59:59 | 3,610.0000 | 0.92% | 8.78 | наблюдать |
-| AFLT | 2026-11-23 14:59:59 | 35.7200 | -0.72% | 0.93 | нет подтверждения |
-| ALRS | 2026-11-23 14:59:59 | 22.2900 | -0.67% | 0.57 | нет подтверждения |
-| ASTR | 2026-11-23 14:59:59 | 205.1500 | 1.21% | 8.08 | нет подтверждения |
-| BSPB | 2026-11-23 14:59:03 | 242.3600 | -0.21% | 0.50 | нет подтверждения |
-| CHMF | 2026-11-23 14:59:59 | 631.6000 | -1.16% | 2.72 | нет подтверждения |
-| DIAS | 2026-11-23 14:59:59 | 1,200.0000 | -0.87% | 1.74 | нет подтверждения |
-| ENPG | 2026-11-23 14:59:03 | 302.2500 | 0.28% | 3.09 | нет подтверждения |
-| FIXR | 2026-11-23 14:59:59 | 0.6304 | -0.49% | 1.55 | нет подтверждения |
-| FLOT | 2026-11-23 14:59:59 | 79.4800 | -0.39% | 1.06 | нет подтверждения |
-| GAZP | 2026-11-23 14:59:59 | 106.8300 | 0.24% | 1.42 | нет подтверждения |
-| GMKN | 2026-11-23 14:59:59 | 109.8600 | -0.47% | 2.63 | нет подтверждения |
-| HEAD | 2026-11-23 14:59:59 | 2,612.0000 | -0.38% | 1.19 | нет подтверждения |
-| HYDR | 2026-11-23 14:59:59 | 0.5448 | -0.09% | 1.04 | нет подтверждения |
-| IRAO | 2026-11-23 14:59:59 | 2.6715 | -0.60% | 1.18 | нет подтверждения |
-| LKOH | 2026-11-23 14:59:59 | 5,777.5000 | 0.56% | 4.79 | нет подтверждения |
-| MAGN | 2026-11-23 14:59:59 | 21.3050 | -1.00% | 1.53 | нет подтверждения |
-| MGKL | 2026-11-23 14:59:59 | 0.2560 | 1.19% | 1.20 | нет подтверждения |
-| MOEX | 2026-11-23 14:59:59 | 160.1900 | -0.06% | 0.53 | нет подтверждения |
-| MTLR | 2026-11-23 14:59:59 | 41.2400 | -0.48% | 0.42 | нет подтверждения |
-| MTSS | 2026-11-23 14:59:59 | 173.5500 | -0.29% | 2.38 | нет подтверждения |
-| NLMK | 2026-11-23 14:59:59 | 68.8400 | -0.78% | 0.63 | нет подтверждения |
-| NVTK | 2026-11-23 14:59:59 | 1,020.5000 | -0.19% | 1.61 | нет подтверждения |
-| PHOR | 2026-11-23 14:59:59 | 5,034.0000 | 0.02% | 1.38 | нет подтверждения |
-| PLZL | 2026-11-23 14:59:59 | 1,039.0000 | -0.50% | 1.54 | нет подтверждения |
-| POSI | 2026-11-23 14:59:59 | 1,302.0000 | 0.02% | 2.49 | нет подтверждения |
-| ROSN | 2026-11-23 14:59:59 | 329.9000 | -0.02% | 1.26 | нет подтверждения |
-| RUAL | 2026-11-23 14:59:59 | 22.2950 | -0.54% | 1.65 | нет подтверждения |
-| SBER | 2026-11-23 14:59:59 | 290.2800 | -0.07% | 2.65 | нет подтверждения |
-| SNGS | 2026-11-23 14:59:59 | 16.0700 | -0.53% | 2.40 | нет подтверждения |
-| SNGSP | 2026-11-23 14:59:59 | 41.1350 | -0.22% | 1.49 | нет подтверждения |
-| SOFL | 2026-11-23 14:59:59 | 47.2800 | -2.31% | 8.86 | нет подтверждения |
-| SVCB | 2026-11-23 14:59:59 | 10.9850 | 0.14% | 0.41 | нет подтверждения |
-| T | 2026-11-23 14:59:59 | 280.7400 | -0.01% | 1.35 | нет подтверждения |
-| TATN | 2026-11-23 14:59:59 | 554.6000 | -0.04% | 2.13 | нет подтверждения |
-| TRNFP | 2026-11-23 14:59:59 | 1,046.6000 | -0.30% | 0.69 | нет подтверждения |
-| VKCO | 2026-11-23 14:59:59 | 212.0000 | -0.40% | 1.79 | нет подтверждения |
-| YDEX | 2026-11-23 14:59:59 | 3,291.0000 | 0.14% | 2.56 | нет подтверждения |
+| AFLT | 2026-11-23 14:59:59 | 35.7200 | -0.72% | 0.93 | устарело |
+| ALRS | 2026-11-23 14:59:59 | 22.2900 | -0.67% | 0.57 | устарело |
+| ASTR | 2026-11-23 14:59:59 | 205.1500 | 1.21% | 8.08 | устарело |
+| BSPB | 2026-11-23 14:59:03 | 242.3600 | -0.21% | 0.50 | устарело |
+| CHMF | 2026-11-23 14:59:59 | 631.6000 | -1.16% | 2.72 | устарело |
+| DIAS | 2026-11-23 14:59:59 | 1,200.0000 | -0.87% | 1.74 | устарело |
+| ENPG | 2026-11-23 14:59:03 | 302.2500 | 0.28% | 3.09 | устарело |
+| FIXR | 2026-11-23 14:59:59 | 0.6304 | -0.49% | 1.55 | устарело |
+| FLOT | 2026-11-23 14:59:59 | 79.4800 | -0.39% | 1.06 | устарело |
+| GAZP | 2026-11-23 14:59:59 | 106.8300 | 0.24% | 1.42 | устарело |
+| GMKN | 2026-11-23 14:59:59 | 109.8600 | -0.47% | 2.63 | устарело |
+| HEAD | 2026-11-23 14:59:59 | 2,612.0000 | -0.38% | 1.19 | устарело |
+| HYDR | 2026-11-23 14:59:59 | 0.5448 | -0.09% | 1.04 | устарело |
+| IRAO | 2026-11-23 14:59:59 | 2.6715 | -0.60% | 1.18 | устарело |
+| LKOH | 2026-11-23 14:59:59 | 5,777.5000 | 0.56% | 4.79 | устарело |
+| MAGN | 2026-11-23 14:59:59 | 21.3050 | -1.00% | 1.53 | устарело |
+| MGKL | 2026-11-23 14:59:59 | 0.2560 | 1.19% | 1.20 | устарело |
+| MOEX | 2026-11-23 14:59:59 | 160.1900 | -0.06% | 0.53 | устарело |
+| MTLR | 2026-11-23 14:59:59 | 41.2400 | -0.48% | 0.42 | устарело |
+| MTSS | 2026-11-23 14:59:59 | 173.5500 | -0.29% | 2.38 | устарело |
+| NLMK | 2026-11-23 14:59:59 | 68.8400 | -0.78% | 0.63 | устарело |
+| NVTK | 2026-11-23 14:59:59 | 1,020.5000 | -0.19% | 1.61 | устарело |
+| OZON | 2026-11-23 14:59:59 | 3,610.0000 | 0.92% | 8.78 | устарело |
+| PHOR | 2026-11-23 14:59:59 | 5,034.0000 | 0.02% | 1.38 | устарело |
+| PLZL | 2026-11-23 14:59:59 | 1,039.0000 | -0.50% | 1.54 | устарело |
+| POSI | 2026-11-23 14:59:59 | 1,302.0000 | 0.02% | 2.49 | устарело |
+| ROSN | 2026-11-23 14:59:59 | 329.9000 | -0.02% | 1.26 | устарело |
+| RUAL | 2026-11-23 14:59:59 | 22.2950 | -0.54% | 1.65 | устарело |
+| SBER | 2026-11-23 14:59:59 | 290.2800 | -0.07% | 2.65 | устарело |
+| SNGS | 2026-11-23 14:59:59 | 16.0700 | -0.53% | 2.40 | устарело |
+| SNGSP | 2026-11-23 14:59:59 | 41.1350 | -0.22% | 1.49 | устарело |
+| SOFL | 2026-11-23 14:59:59 | 47.2800 | -2.31% | 8.86 | устарело |
+| SVCB | 2026-11-23 14:59:59 | 10.9850 | 0.14% | 0.41 | устарело |
+| T | 2026-11-23 14:59:59 | 280.7400 | -0.01% | 1.35 | устарело |
+| TATN | 2026-11-23 14:59:59 | 554.6000 | -0.04% | 2.13 | устарело |
+| TRNFP | 2026-11-23 14:59:59 | 1,046.6000 | -0.30% | 0.69 | устарело |
+| VKCO | 2026-11-23 14:59:59 | 212.0000 | -0.40% | 1.79 | устарело |
+| YDEX | 2026-11-23 14:59:59 | 3,291.0000 | 0.14% | 2.56 | устарело |
 
 ## Price Oracle
 
@@ -219,5 +219,84 @@
 
 Всего записей прогноза: 1976. Завершено валидных проверок: 1482.
 
+### Недоступные данные
+
+- AFLT / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- AFLT / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- ALRS / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- ALRS / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- ASTR / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- ASTR / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- BSPB / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- BSPB / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- CHMF / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- CHMF / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- DIAS / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- DIAS / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- ENPG / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- ENPG / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- FIXR / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- FIXR / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- FLOT / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- FLOT / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- GAZP / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- GAZP / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- GMKN / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- GMKN / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- HEAD / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- HEAD / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- HYDR / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- HYDR / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- IMOEX / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- IRAO / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- IRAO / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- LKOH / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- LKOH / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- MAGN / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- MAGN / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- MGKL / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- MGKL / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- MOEX / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- MOEX / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- MTLR / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- MTLR / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- MTSS / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- MTSS / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- NLMK / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- NLMK / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- NVTK / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- NVTK / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- OZON / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- OZON / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- PHOR / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- PHOR / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- PLZL / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- PLZL / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- POSI / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- POSI / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- ROSN / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- ROSN / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- RUAL / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- RUAL / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- SBER / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- SBER / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- SNGS / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- SNGS / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- SNGSP / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- SNGSP / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- SOFL / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- SOFL / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- SVCB / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- SVCB / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- T / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- T / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- TATN / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- TATN / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- TRNFP / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- TRNFP / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- VKCO / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- VKCO / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- YDEX / interval=24: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
+- YDEX / interval=60: cached URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>
 
 Источники и параметры каждого запроса: `cloud_data/source_status.json`. Прогнозы: `cloud_state/forecasts.jsonl`. Отдельные результаты проверки: `cloud_state/outcomes.jsonl`.
