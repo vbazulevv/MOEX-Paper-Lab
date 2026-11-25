@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "model_version": "shrink-drift20-v1",
-  "generated_at_msk": "2026-11-25T02:55:12.959549+03:00",
-  "snapshot_cutoff_msk": "2026-11-25T02:54:56.791751+03:00",
+  "generated_at_msk": "2026-11-25T15:59:57.848336+03:00",
+  "snapshot_cutoff_msk": "2026-11-25T15:59:42.910181+03:00",
   "requested_tickers": 38,
   "daily_rows": 11392,
   "all_failed": false,
