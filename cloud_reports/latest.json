@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "model_version": "shrink-drift20-v1",
-  "generated_at_msk": "2026-11-27T15:27:23.235378+03:00",
-  "snapshot_cutoff_msk": "2026-11-27T15:27:04.941667+03:00",
+  "generated_at_msk": "2026-11-28T00:59:26.689623+03:00",
+  "snapshot_cutoff_msk": "2026-11-28T00:59:11.782626+03:00",
   "requested_tickers": 38,
   "daily_rows": 11392,
   "research": [
@@ -142,7 +142,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -290,7 +290,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -438,7 +438,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -586,7 +586,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -734,7 +734,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -882,7 +882,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -1030,7 +1030,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -1178,7 +1178,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -1326,7 +1326,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -1474,7 +1474,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -1622,7 +1622,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -1770,7 +1770,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -1918,7 +1918,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -2066,7 +2066,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -2214,7 +2214,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -2362,7 +2362,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -2510,7 +2510,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -2658,7 +2658,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -2806,7 +2806,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -2954,7 +2954,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -3102,7 +3102,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -3250,7 +3250,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -3398,7 +3398,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -3546,7 +3546,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -3694,7 +3694,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -3842,7 +3842,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -3990,7 +3990,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -4138,7 +4138,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -4286,7 +4286,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -4434,7 +4434,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -4582,7 +4582,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -4730,7 +4730,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -4878,7 +4878,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -5026,7 +5026,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -5174,7 +5174,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -5322,7 +5322,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -5470,7 +5470,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
@@ -5618,7 +5618,7 @@
           "evaluation": "walk-forward historical backtest; overlapping targets; no parameter search"
         }
       ],
-      "data_age_calendar_days": 7,
+      "data_age_calendar_days": 8,
       "intraday": {
         "status": "stale",
         "begin_msk": "2026-11-23 14:00:00",
